@@ -1,0 +1,9 @@
+*.class
+
+/TweetsGetter/twitter4j.properties
+/TweetsGetter/nbproject/private/
+/TweetsGetter/build/
+/TweetsGetter/dist/
+
+*~
+

@@ -1,4 +1,4 @@
 CLANews
 =======
 
-A news classifier based on Support Vector Machine (SVM)
+CLANews classifies headlines news from tweets based on Support Vector Machine (SVM)
