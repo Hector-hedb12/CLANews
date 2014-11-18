@@ -1,0 +1,1 @@
+robot hand power static electr pick object 

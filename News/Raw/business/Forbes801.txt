@@ -1,0 +1,1 @@
+Security researchers detailed an exploit that can update iOS apps to turn them into data-pilfering nightmares: http://t.co/hEt6oCtTmB

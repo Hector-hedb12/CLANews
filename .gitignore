@@ -1,9 +1,16 @@
 *.class
+*~
+
+/Classifier/nbproject/private/
+/Classifier/build/
+/Classifier/dist/
+
+/TweetsAnalyzer/nbproject/private/
+/TweetsAnalyzer/build/
+/TweetsAnalyzer/dist/
 
 /TweetsGetter/twitter4j.properties
 /TweetsGetter/nbproject/private/
 /TweetsGetter/build/
 /TweetsGetter/dist/
-
-*~
 

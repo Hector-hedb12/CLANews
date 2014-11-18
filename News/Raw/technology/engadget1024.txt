@@ -1,0 +1,1 @@
+Nest can now talk to Pebble and other home automation products http://t.co/0dQib9pwuF

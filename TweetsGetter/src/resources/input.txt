@@ -1,5 +1,6 @@
-../News/business/ business ReutersBiz BBCBusiness Forbes nytimesbusiness
-../News/entertainment/ entertainment ReutersShowbiz EW ENews MSN_Entertain
-../News/politics/ politics ReutersPolitics foxnewspolitics ABCPolitics BBCPolitics
-../News/sport/ sport ReutersSports BBCSport SportsCenter espn
-../News/technology/ technology ReutersTech engadget BBCTech CNET
+../News/
+business/ ReutersBiz BBCBusiness Forbes nytimesbusiness
+entertainment/ ReutersShowbiz EW ENews MSN_Entertain
+politics/ ReutersPolitics foxnewspolitics ABCPolitics BBCPolitics
+sport/ ReutersSports BBCSport SportsCenter espn
+technology/ ReutersTech engadget BBCTech CNET

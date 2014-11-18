@@ -1,0 +1,1 @@
+ftc su limit speed unlimit data custom 

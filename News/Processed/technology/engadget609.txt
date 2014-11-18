@@ -1,0 +1,1 @@
+nest smart thermostat show info glanc 

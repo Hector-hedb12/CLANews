@@ -1,0 +1,1 @@
+make manic mondai mock mockdraftmondai 
