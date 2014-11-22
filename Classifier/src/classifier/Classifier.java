@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package classifier;
 
 import java.awt.BorderLayout;
@@ -30,9 +25,14 @@ import weka.gui.visualize.ThresholdVisualizePanel;
  */
 public class Classifier {
     private static int NUM_FOLDS = 5;
+    private static double BETA   = 0.5;
     
+    // Processed tweets
     private static final String DIR = "../News/Processed";
-    private static final String OUT = "src/resources/SVM_input.arff";
+    private static final String OUT = "src/resources/pro_SVM_input.arff";
+    // Raw tweets
+    //private static final String DIR = "../News/Raw";
+    //private static final String OUT = "src/resources/raw_SVM_input.arff";
     
     private static Instances mInstances, mStructure;
     
@@ -41,19 +41,20 @@ public class Classifier {
      */
     public static void main(String[] args) throws Exception {
         ArffLoader loader = new ArffLoader();
-        loader.setFile( new File(OUT) );
-        
-        //mStructure = loader.getStructure();
-        mInstances = loader.getDataSet();
-        
-        if ( mInstances == null ) {
-            System.out.println("Reading Tweets from " + DIR + " directory...");
-            fromTweetsToArff(DIR, OUT);
+        try {
+            loader.setFile( new File(OUT) );
+            mInstances = loader.getDataSet();
+        } catch (NullPointerException ex) { // File not found
+            if ( mInstances == null ) {
+                System.out.println("Reading Tweets from " + DIR + " directory...");
+                fromTweetsToArff(DIR, OUT);
+            }
         }
         
         mInstances.setClassIndex(0);
         
-        train(1000, 1000);
+        Instances data = getTrainingSet(1000, 1000);
+        doCrossValidation(1, data);
     }
     
     private static void fromTweetsToArff(String fromDir, String outputFile) 
@@ -70,6 +71,7 @@ public class Classifier {
         //filter.setWordsToKeep(1000000);
         //filter.setDoNotOperateOnPerClassBasis(true);
         mInstances = Filter.useFilter(rawData, filter);
+        mInstances.setRelationName("news");
         //System.out.println("\n\nFiltered data:\n\n" + data);
         
         ArffSaver saver = new ArffSaver();
@@ -78,7 +80,9 @@ public class Classifier {
         saver.writeBatch();
     }
     
-    private static void train(int numInstances, int numAttributes) throws Exception {
+    private static Instances getTrainingSet(int numInstances, int numAttributes) throws Exception {
+        System.out.println("Getting Training Set:");
+        
         String[] options;
         Instances newData;
         
@@ -90,6 +94,9 @@ public class Classifier {
         SpreadSubsample subSampleFilter = new SpreadSubsample();
         subSampleFilter.setOptions(options);
         subSampleFilter.setInputFormat(mInstances);
+        
+        System.out.println("\tGetting sample...");
+        
         newData = Filter.useFilter(mInstances, subSampleFilter);
         
         // Get top 'numAttributes' attributes
@@ -103,10 +110,26 @@ public class Classifier {
         AttributeSelection attributeFilter = new AttributeSelection();
         attributeFilter.setOptions(options);
         attributeFilter.setInputFormat(newData);
+        
+        System.out.println("\tFiltering attributes...");
+        
         newData = Filter.useFilter(newData, attributeFilter);
         
-        // Construct SVM
-        SMO svm = new SMO();
+        return newData;
+    }
+    
+    private static void doCrossValidation(int seed, Instances trainingSet) 
+            throws Exception {
+        System.out.println();
+        System.out.println("Doing Cross-Validation...");
+        // Randomize data
+        Random rand = new Random(seed);
+        Instances randData = new Instances(trainingSet);
+        randData.randomize(rand);
+        if ( randData.classAttribute().isNominal() ) {
+            randData.stratify(NUM_FOLDS);
+        }
+        
         /*
         options = new String[] {"-C", "1.0",
                                 "-L", "0.001",
@@ -120,13 +143,59 @@ public class Classifier {
         //svm.setOptions(options);
         //svm.buildClassifier(newData);
         
-        Evaluation eval = new Evaluation(newData);
-        eval.crossValidateModel(svm, newData, NUM_FOLDS, new Random(1));
-        System.out.println(eval.toSummaryString());
-        System.out.println(eval.toClassDetailsString());
-        System.out.println(eval.toMatrixString());
-        //System.out.println(svm.toString());
+        // Perform cross-validation
+        SMO svm, best_svm;
+        Instances train, test;
+        Evaluation eval, evalAll;
+        double best_Fbeta; // Weighted Harmonic Mean
         
+        best_svm   = null;
+        best_Fbeta = 0.0;
+        evalAll    = new Evaluation(randData);
+        
+        for ( int i = 0; i < NUM_FOLDS; i++ ) {
+            eval  = new Evaluation(randData);
+            train = randData.trainCV(NUM_FOLDS, i);
+            test  = randData.testCV(NUM_FOLDS, i);
+            
+            // Build and evaluate classifier
+            
+            svm = new SMO(); // Construct SVM
+            svm.buildClassifier(train);
+            eval.evaluateModel(svm, test);
+            evalAll.evaluateModel(svm, test);
+            
+            // Output evaluation
+            System.out.println();
+            System.out.println("Weighted Harmonic Mean: " + eval.weightedFMeasure() );
+            System.out.println(eval.toMatrixString("=== Confusion matrix for fold " + 
+                                                   (i+1) + "/" + NUM_FOLDS + " ===\n"));
+            
+            // Get best SVM based on Weighted Harmonic Mean
+            if ( best_Fbeta < eval.weightedFMeasure() ) {
+                best_Fbeta = eval.weightedFMeasure();
+                best_svm = (SMO) SMO.makeCopy(svm);
+            }
+        }
+        
+        // Output summary
+        System.out.println();
+        System.out.println("=== Summary " + NUM_FOLDS + "-fold Cross-validation ===");
+        System.out.println(evalAll.toSummaryString());
+        System.out.println(evalAll.toClassDetailsString());
+        System.out.println(evalAll.toMatrixString());
+        
+        // Best SVM
+        System.out.println();
+        System.out.println("=== Best SVM ===");
+        System.out.println("Weighted Harmonic Mean: " + best_Fbeta );
+        
+        /*
+        if ( best_svm != null ) {
+            System.out.println();
+            System.out.println(best_svm.toString());
+        }
+        */
         //showRocCurve(eval.predictions());
     }
 

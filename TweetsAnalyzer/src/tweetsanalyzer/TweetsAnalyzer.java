@@ -22,6 +22,8 @@ public class TweetsAnalyzer {
 
     private static final String ES_FILE = "resources/spanish_stopwords.txt";
     private static final String EN_FILE = "resources/english_stopwords.txt";
+    private static final String RAW_DIR = "../News/Raw";
+    private static final String PRO_DIR = "../News/Processed";
     
     private static CharArraySet mStopWords;
     private static Analyzer mAnalyzer;
@@ -119,7 +121,25 @@ public class TweetsAnalyzer {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        TweetsAnalyzer mt = new TweetsAnalyzer("EN");
+/*
+        TweetsAnalyzer myAnalyzer = new TweetsAnalyzer("EN");
+        File raw_dir = new File(RAW_DIR);
+        File [] categories = raw_dir.listFiles();
+        File [] tweets;
+        
+        for ( File category : categories ) {
+            
+            if ( !category.isDirectory() ) {
+                continue;
+            }
+            
+            System.out.println(category.getName());
+            tweets = ( new File(RAW_DIR + "/" + category.getName()) ).listFiles();
+            for ( File tweet : tweets ) {
+                System.out.println(tweet.getName());
+            }
+        }
         //System.out.println(mt.getClass().getClassLoader().getResource(EN_FILE).getFile());
-    }    
+*/
+    }
 }
