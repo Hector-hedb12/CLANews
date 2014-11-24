@@ -41,6 +41,13 @@ public class Classifier {
     private static final int [] numInstances_list  = new int[] {1000, 2000, 3000, 4000}; // per category
     private static final int [] numAttributes_list = new int[] {500, 1000, 1500, 2000, 2500};
     
+    private static final int BEST_NUM_INSTANCES  = 4000;
+    private static final int BEST_NUM_ATTRIBUTES = 2500;
+    private static final int BEST_SEED           = 2000;
+    
+    private static final String MODEL = "src/resources/svm.model";
+    private static LibSVM mSVM;
+    
     /**
      * @param args the command line arguments
      */
@@ -58,7 +65,17 @@ public class Classifier {
         
         mInstances.setClassIndex(0);
         
-        getBestDataParameters();
+        // Tuning data parameters
+        //getBestDataParameters();
+        
+        mSVM = getModel(); // try get model
+        
+        if ( mSVM == null) {
+            saveModel(doCrossValidation(BEST_SEED,
+                                        getTrainingSet(BEST_NUM_INSTANCES, 
+                                                       BEST_NUM_ATTRIBUTES))
+            );
+        }
     }
     
     private static void fromTweetsToArff(String fromDir, String outputFile) 
@@ -122,7 +139,7 @@ public class Classifier {
         return newData;
     }
     
-    private static void doCrossValidation(int seed, Instances trainingSet) 
+    private static LibSVM doCrossValidation(int seed, Instances trainingSet) 
             throws Exception {
         System.out.println();
         System.out.println("Doing Cross-Validation, SEED = " + seed + " ...");
@@ -199,13 +216,8 @@ public class Classifier {
         System.out.println();
         System.out.println("=== Best SVM ===");
         System.out.println("Weighted Harmonic Mean: " + best_Fbeta );
-        
-        /*
-        if ( best_svm != null ) {
-            System.out.println();
-            System.out.println(best_svm.toString());
-        }
-        */
+
+        return bestSVM;
         //showRocCurve(eval.predictions());
     }
 
@@ -274,5 +286,27 @@ public class Classifier {
                 doCrossValidation(randomGenerator.nextInt(999999), data);
             }
         }
+    }
+
+    private static void saveModel(LibSVM classifier) {
+        System.out.println("Saving SVM model to: " + MODEL + " ...");
+        try {
+            weka.core.SerializationHelper.write(MODEL, classifier);
+        } catch (Exception ex) {
+            System.out.println("\n=== Fail saving SVM model to: " + MODEL + " ===\n");
+        }
+    }
+    
+    private static LibSVM getModel(){
+        LibSVM classifier = null;
+        
+        System.out.println("Getting SVM model from: " + MODEL + " ...");
+        try {
+            classifier = (LibSVM) weka.core.SerializationHelper.read(MODEL);
+        } catch (Exception ex) {
+            System.out.println("=== Fail getting SVM model from: " + MODEL + " ===\n");
+        }
+        
+        return classifier;
     }
 }
