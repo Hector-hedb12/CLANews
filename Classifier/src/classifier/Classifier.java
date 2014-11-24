@@ -5,7 +5,7 @@ import java.io.File;
 import java.util.Random;
 import weka.classifiers.Evaluation;
 import weka.classifiers.evaluation.ThresholdCurve;
-import weka.classifiers.functions.SMO;
+import weka.classifiers.functions.LibSVM;
 import weka.core.FastVector;
 import weka.core.Instances;
 import weka.core.Utils;
@@ -24,8 +24,10 @@ import weka.gui.visualize.ThresholdVisualizePanel;
  * @author Hector E. Dominguez B.
  */
 public class Classifier {
-    private static int NUM_FOLDS = 5;
-    private static double BETA   = 0.5;
+    private static final int NUM_FOLDS = 10;
+    // SVM Parameters
+    private static final double SVM_COST  = 1.0;
+    private static final double SVM_GAMMA = 0.25;
     
     // Processed tweets
     private static final String DIR = "../News/Processed";
@@ -35,6 +37,9 @@ public class Classifier {
     //private static final String OUT = "src/resources/raw_SVM_input.arff";
     
     private static Instances mInstances, mStructure;
+    
+    private static final int [] numInstances_list  = new int[] {1000, 2000, 3000, 4000}; // per category
+    private static final int [] numAttributes_list = new int[] {500, 1000, 1500, 2000, 2500};
     
     /**
      * @param args the command line arguments
@@ -53,8 +58,7 @@ public class Classifier {
         
         mInstances.setClassIndex(0);
         
-        Instances data = getTrainingSet(1000, 1000);
-        doCrossValidation(1, data);
+        getBestDataParameters();
     }
     
     private static void fromTweetsToArff(String fromDir, String outputFile) 
@@ -121,7 +125,7 @@ public class Classifier {
     private static void doCrossValidation(int seed, Instances trainingSet) 
             throws Exception {
         System.out.println();
-        System.out.println("Doing Cross-Validation...");
+        System.out.println("Doing Cross-Validation, SEED = " + seed + " ...");
         // Randomize data
         Random rand = new Random(seed);
         Instances randData = new Instances(trainingSet);
@@ -144,38 +148,44 @@ public class Classifier {
         //svm.buildClassifier(newData);
         
         // Perform cross-validation
-        SMO svm, best_svm;
+        LibSVM mySVM, bestSVM;
         Instances train, test;
         Evaluation eval, evalAll;
         double best_Fbeta; // Weighted Harmonic Mean
         
-        best_svm   = null;
+        bestSVM   = null;
         best_Fbeta = 0.0;
         evalAll    = new Evaluation(randData);
         
         for ( int i = 0; i < NUM_FOLDS; i++ ) {
+            System.out.println("\n=== Fold " + (i+1) + "/" + NUM_FOLDS + " ===\n");
             eval  = new Evaluation(randData);
             train = randData.trainCV(NUM_FOLDS, i);
             test  = randData.testCV(NUM_FOLDS, i);
             
             // Build and evaluate classifier
             
-            svm = new SMO(); // Construct SVM
-            svm.buildClassifier(train);
-            eval.evaluateModel(svm, test);
-            evalAll.evaluateModel(svm, test);
+            mySVM = new LibSVM(); // Construct SVM with Radial Basis Functions Kernel
+            mySVM.setCost(SVM_COST);
+            mySVM.setGamma(SVM_GAMMA);
+            mySVM.setSeed(seed);
+            mySVM.buildClassifier(train);
+            eval.evaluateModel(mySVM, test);
+            evalAll.evaluateModel(mySVM, test);
             
-            // Output evaluation
-            System.out.println();
-            System.out.println("Weighted Harmonic Mean: " + eval.weightedFMeasure() );
-            System.out.println(eval.toMatrixString("=== Confusion matrix for fold " + 
-                                                   (i+1) + "/" + NUM_FOLDS + " ===\n"));
-            
-            // Get best SVM based on Weighted Harmonic Mean
+            // Get best SVM based on Harmonic Mean (F-measure)
             if ( best_Fbeta < eval.weightedFMeasure() ) {
                 best_Fbeta = eval.weightedFMeasure();
-                best_svm = (SMO) SMO.makeCopy(svm);
+                bestSVM = (LibSVM) LibSVM.makeCopy(mySVM);
             }
+            
+            /*
+            // Output evaluation
+            System.out.println();
+            System.out.println("Harmonic Mean (F-measure): " + eval.weightedFMeasure() );
+            System.out.println(eval.toMatrixString("=== Confusion matrix for fold " + 
+                                                   (i+1) + "/" + NUM_FOLDS + " ===\n"));
+            */
         }
         
         // Output summary
@@ -247,5 +257,22 @@ public class Classifier {
         });
         
         jf.setVisible(true);
+    }
+
+    private static void getBestDataParameters() throws Exception {
+        Instances data;
+        Random randomGenerator = new Random();
+        
+        for (int numInstances : numInstances_list) {
+            for (int numAttributes : numAttributes_list) {
+                System.out.println("##########################################################");
+                System.out.println("Training with " + numInstances   + 
+                                   " Instances and " + numAttributes + 
+                                   " Attributes");
+                
+                data = getTrainingSet(numInstances, numAttributes);
+                doCrossValidation(randomGenerator.nextInt(999999), data);
+            }
+        }
     }
 }
