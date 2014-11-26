@@ -1,0 +1,56 @@
+=== Run information ===
+
+Scheme:weka.classifiers.meta.GridSearch -E ACC -y-property classifier.gamma -y-min -15.0 -y-max 3.0 -y-step 1.0 -y-base 2.0 -y-expression pow(BASE,I) -filter weka.filters.AllFilter -x-property classifier.cost -x-min -5.0 -x-max 15.0 -x-step 1.0 -x-base 2.0 -x-expression pow(BASE,I) -sample-size 100.0 -traversal COLUMN-WISE -log-file \home\luis\Documentos\Hector\weka-3-6-11 -S 1 -W weka.classifiers.functions.LibSVM -- -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -B -seed 1
+Relation:     news-weka.filters.supervised.instance.SpreadSubsample-M1.0-X1000.0-S1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 1000
+Instances:    5000
+Attributes:   1001
+[list of attributes omitted]
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+weka.classifiers.meta.GridSearch:
+Filter: weka.filters.AllFilter
+Classifier: weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 9.765625E-4 -R 0.0 -N 0.5 -M 40.0 -C 256.0 -E 0.001 -P 0.1 -B -seed 1
+
+X property: classifier.cost
+Y property: classifier.gamma
+
+Evaluation: Accuracy
+Coordinates: [8.0, -10.0]
+Values: 256.0 (X coordinate), 9.765625E-4 (Y coordinate)
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 6024.35 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3723               74.46   %
+Incorrectly Classified Instances      1277               25.54   %
+Kappa statistic                          0.6808
+Mean absolute error                      0.1444
+Root mean squared error                  0.2657
+Relative absolute error                 45.1392 %
+Root relative squared error             66.4352 %
+Total Number of Instances             5000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.668     0.058      0.743     0.668     0.704      0.914    technology
+                 0.831     0.037      0.851     0.831     0.841      0.968    politics
+                 0.766     0.102      0.652     0.766     0.705      0.936    entertainment
+                 0.794     0.039      0.837     0.794     0.815      0.958    sport
+                 0.664     0.084      0.663     0.664     0.664      0.902    business
+Weighted Avg.    0.745     0.064      0.749     0.745     0.745      0.935
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 668  26 123  33 150 |   a = technology
+  14 831  59  18  78 |   b = politics
+  59  44 766  68  63 |   c = entertainment
+  25  21 114 794  46 |   d = sport
+ 133  55 112  36 664 |   e = business
