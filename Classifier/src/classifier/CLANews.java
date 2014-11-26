@@ -7,6 +7,7 @@ import java.util.Random;
 import java.util.Scanner;
 import weka.classifiers.Evaluation;
 import weka.classifiers.evaluation.ThresholdCurve;
+import weka.classifiers.Classifier;
 import weka.classifiers.functions.LibSVM;
 import weka.core.Attribute;
 import weka.core.FastVector;
@@ -27,10 +28,10 @@ import weka.gui.visualize.ThresholdVisualizePanel;
  *
  * @author Hector E. Dominguez B.
  */
-public class Classifier {
+public class CLANews {
     // SVM Parameters
-    private static final int BEST_NUM_INSTANCES  = 2000;
-    private static final int BEST_NUM_ATTRIBUTES = 1500;
+    private static final int BEST_NUM_INSTANCES  = 500;
+    private static final int BEST_NUM_ATTRIBUTES = 500;
     private static final int BEST_SEED           = 2000;
     
     private static final int    NUM_FOLDS = 10;
@@ -40,6 +41,7 @@ public class Classifier {
     // Processed tweets
     private static final String DIR       = "../News/Processed";
     private static final String ARFF_FILE = "src/resources/all_tweets.arff";
+    private static final int    NUM_CLASS = 5;
     
     // Tuning parameters
     private static final int [] numInstances_list  = new int[] {1000, // per category 
@@ -58,7 +60,7 @@ public class Classifier {
     private static final String DATASET = "src/resources/svm_model_dataset.arff";
     
     // Members variables
-    private static LibSVM mSVM;
+    private static Classifier mSVM;
     private static Instances mInstances;
     private static Instances mSVM_dataset;
     
@@ -74,7 +76,7 @@ public class Classifier {
         // Tuning data parameters
         //getBestDataParameters();
                 
-        mSVM = getModel(); // try get model
+        //mSVM = getModel(); // try get model
         
         if ( mSVM == null) {
             // Load all tweets
@@ -91,15 +93,16 @@ public class Classifier {
             mInstances.setClassIndex(0);
             
             // Get sample of all tweets
-            Instances dataset = getTrainingSet(BEST_NUM_INSTANCES, 
+            mSVM_dataset = getTrainingSet(BEST_NUM_INSTANCES, 
                                                BEST_NUM_ATTRIBUTES);
-            
-            dataset.setRelationName("svm_model_dataset");
+
+            mSVM_dataset.setRelationName("svm_model_dataset");
             // Train and Save SVM
-            saveModel( doCrossValidation(BEST_SEED, dataset) );
+            mSVM = doCrossValidation(BEST_SEED, mSVM_dataset);
+            saveModel( mSVM );
             // Save dataset used to train SVM
             ArffSaver saver = new ArffSaver();
-            saver.setInstances(dataset);
+            saver.setInstances(mSVM_dataset);
             saver.setFile( new File(DATASET) );
             saver.writeBatch();
         } else {
@@ -112,10 +115,10 @@ public class Classifier {
                 System.exit(-1);            
             }
 
-            mSVM_dataset.setClassIndex(0);
+            mSVM_dataset.setClassIndex(mSVM_dataset.numAttributes()-1);
         }
         
-        //test("../News/Test/tweets.txt");
+        test("../News/Test/tweets.txt");
     }
     
     private static void fromTweetsToArff(String fromDir, String outputFile) 
@@ -131,7 +134,7 @@ public class Classifier {
         System.out.println("\tFiltering...");
         StringToWordVector filter = new StringToWordVector();
         filter.setInputFormat(rawData);
-        filter.setOutputWordCounts(true);
+        filter.setOutputWordCounts(true); // Word Frequency
         mInstances = Filter.useFilter(rawData, filter);
         mInstances.setRelationName("news");
         
@@ -180,7 +183,7 @@ public class Classifier {
         return newData;
     }
     
-    private static LibSVM doCrossValidation(int seed, Instances trainingSet) 
+    private static Classifier doCrossValidation(int seed, Instances trainingSet) 
             throws Exception {
         System.out.println();
         System.out.println("Doing Cross-Validation, SEED = " + seed + " ...");
@@ -266,15 +269,21 @@ public class Classifier {
         System.out.println("Weighted Harmonic Mean: " + best_Fbeta );
 
         //showROCPlot(NUM_FOLDS);
-        //showRocCurve(evalAll.predictions());
+        
+        // Show ROC Curve for each class
+        for (int cl = 0; cl < NUM_CLASS; cl++) {
+            showRocCurve(evalAll.predictions(), 
+                         cl, 
+                         randData.classAttribute().value(cl));
+        }
         
         return bestSVM;
     }
 
-    private static void showRocCurve(FastVector predictions) {
+    private static void showRocCurve(FastVector predictions, 
+                                     int classIndex, String className) {
         // Generate Curve
         ThresholdCurve tc = new ThresholdCurve();
-        int classIndex = 0;
         Instances result = tc.getCurve(predictions, classIndex);
         
         // Plot Curve
@@ -306,7 +315,8 @@ public class Classifier {
         String plotName = vmc.getName();
         final javax.swing.JFrame jf;
         
-        jf = new javax.swing.JFrame("Weka Classifier Visualize: " + plotName);
+        jf = new javax.swing.JFrame("Weka Classifier Visualize: " + 
+                                     className + " class");
         
         jf.setSize(500,400);
         jf.getContentPane().setLayout(new BorderLayout());
@@ -338,7 +348,7 @@ public class Classifier {
         }
     }
 
-    private static void saveModel(LibSVM classifier) {
+    private static void saveModel(Classifier classifier) {
         System.out.println("Saving SVM model to: " + MODEL + " ...");
         try {
             weka.core.SerializationHelper.write(MODEL, classifier);
@@ -347,12 +357,12 @@ public class Classifier {
         }
     }
     
-    private static LibSVM getModel(){
-        LibSVM classifier = null;
+    private static Classifier getModel(){
+        Classifier classifier = null;
         
         System.out.println("Getting SVM model from: " + MODEL + " ...");
         try {
-            classifier = (LibSVM) weka.core.SerializationHelper.read(MODEL);
+            classifier = (Classifier) weka.core.SerializationHelper.read(MODEL);
         } catch (Exception ex) {
             System.out.println("=== Fail getting SVM model from: " + MODEL + " ===\n");
         }
