@@ -35,10 +35,10 @@ public class CLANews {
     private static final String USAGE = "Usage: java -cp dist/CLANews.jar "  +
                                         "clanews.tweetsgetter.TweetsGetter " +
                                         "-l <EN|ES> -m <TRAIN|TEST> "        +
-                                        "[-i <test file>] (if set TEST mode)";
+                                        "[-i <test file> (if set TEST mode)]";
     // SVM Parameters
-    private static final int BEST_NUM_INSTANCES  = 500;
-    private static final int BEST_NUM_ATTRIBUTES = 500;
+    private static final int BEST_NUM_INSTANCES  = 4000;
+    private static final int BEST_NUM_ATTRIBUTES = 2500;
     private static final int BEST_SEED           = 2000;
     
     private static final int    NUM_FOLDS = 10;
@@ -324,7 +324,9 @@ public class CLANews {
         for (int i = 0; i < numTweets; i++ ) {
             try {
                 double prediction = mSVM.classifyInstance(testSet.instance(i));
-                System.out.println(testSet.classAttribute().value((int) prediction));
+                System.out.println(testSet.classAttribute().value(
+                                                   (int) Math.round(prediction))
+                                  );
             } catch (java.lang.Exception ex) {
                 System.err.println("?: " + testSet.instance(i).toString());
             }
@@ -376,12 +378,11 @@ public class CLANews {
             }
 
             testMode = mode.equals("TEST");
+            test_file = Utils.getOption('i', options);
             
             // Read test input file
             if ( testMode ) {
-                if ( Utils.getFlag("i", options) ) {
-                    test_file = Utils.getOption("i", options);
-                } else {
+                if ( test_file.equals("") ) {
                     test_file = TEST_FILE;
                 }
             }

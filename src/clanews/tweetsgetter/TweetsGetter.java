@@ -246,8 +246,9 @@ public class TweetsGetter {
      * @param options the command line arguments
      */
     public static void main(String[] options) {
-        String language = "";
-        String mode     = "";
+        String language   = "";
+        String mode       = "";
+        String input_file = "";
         int n_tweets    = 0;
         
         try {
@@ -270,12 +271,13 @@ public class TweetsGetter {
             // Init member variables
             mTwitter  = new TwitterFactory().getInstance();
             mAnalyzer = new TweetsAnalyzer(language);
-
+            
+            input_file = Utils.getOption('i', options);
+            
             // Read train input file
             ArrayList<String> inputList;
-            if ( Utils.getFlag("i", options) ) {
-                inputList = readInputFile( Utils.getOption("i",
-                                           options) );
+            if ( !input_file.equals("") ) {
+                inputList = readInputFile( input_file );
             } else {
                 if ( mode.equals("TRAIN") ) {
                     inputList = readInputFile(TRAIN_INPUT);
