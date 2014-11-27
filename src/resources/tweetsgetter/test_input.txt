@@ -1,0 +1,6 @@
+News/Test/
+WSJbusiness
+CNNent
+CNNPolitics
+CBSSports
+usatodaytech

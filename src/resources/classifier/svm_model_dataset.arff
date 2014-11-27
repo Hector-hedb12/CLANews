@@ -1,0 +1,3005 @@
+@relation svm_model_dataset
+
+@attribute obama numeric
+@attribute tonight numeric
+@attribute td numeric
+@attribute senat numeric
+@attribute lead numeric
+@attribute immigr numeric
+@attribute hous numeric
+@attribute googl numeric
+@attribute nfl numeric
+@attribute leagu numeric
+@attribute campaign numeric
+@attribute listen numeric
+@attribute new numeric
+@attribute clinton numeric
+@attribute isi numeric
+@attribute footbal numeric
+@attribute republican numeric
+@attribute game numeric
+@attribute dem numeric
+@attribute appl numeric
+@attribute win numeric
+@attribute profit numeric
+@attribute elect numeric
+@attribute governor numeric
+@attribute beat numeric
+@attribute facebook numeric
+@attribute mp numeric
+@attribute yard numeric
+@attribute bank numeric
+@attribute roundup numeric
+@attribute sctop numeric
+@attribute democrat numeric
+@attribute night numeric
+@attribute ebola numeric
+@attribute app numeric
+@attribute bill numeric
+@attribute labour numeric
+@attribute china numeric
+@attribute blog numeric
+@attribute st numeric
+@attribute video numeric
+@attribute race numeric
+@attribute review numeric
+@attribute samsung numeric
+@attribute minist numeric
+@attribute microsoft numeric
+@attribute white numeric
+@attribute film numeric
+@attribute dealbook numeric
+@attribute presid numeric
+@attribute u numeric
+@attribute team numeric
+@attribute candid numeric
+@attribute mobil numeric
+@attribute score numeric
+@attribute nation numeric
+@attribute amazon numeric
+@attribute sale numeric
+@attribute world numeric
+@attribute livefrom numeric
+@attribute billion numeric
+@attribute tune numeric
+@attribute busi numeric
+@attribute ceo numeric
+@attribute player numeric
+@attribute holidai numeric
+@attribute fan numeric
+@attribute marriag numeric
+@attribute conserv numeric
+@attribute biden numeric
+@attribute fanhalloffam numeric
+@attribute leader numeric
+@attribute pre numeric
+@attribute you’r numeric
+@attribute cup numeric
+@attribute final numeric
+@attribute return numeric
+@attribute england numeric
+@attribute parti numeric
+@attribute ukip numeric
+@attribute prove numeric
+@attribute takata numeric
+@attribute titl numeric
+@attribute nov numeric
+@attribute share numeric
+@attribute govern numeric
+@attribute secur numeric
+@attribute icymi numeric
+@attribute star numeric
+@attribute tech numeric
+@attribute miss numeric
+@attribute plai numeric
+@attribute eu numeric
+@attribute yd numeric
+@attribute obamacar numeric
+@attribute iphon numeric
+@attribute playoff numeric
+@attribute goal numeric
+@attribute recal numeric
+@attribute midterm numeric
+@attribute data numeric
+@attribute launch numeric
+@attribute gai numeric
+@attribute polit numeric
+@attribute point numeric
+@attribute pick numeric
+@attribute music numeric
+@attribute fox numeric
+@attribute appli numeric
+@attribute wall numeric
+@attribute phone numeric
+@attribute store numeric
+@attribute todai numeric
+@attribute sen numeric
+@attribute gop numeric
+@attribute actor numeric
+@attribute basketbal numeric
+@attribute bbcworldbiz numeric
+@attribute wbr numeric
+@attribute bronco numeric
+@attribute cast numeric
+@attribute soccer numeric
+@attribute coach numeric
+@attribute elovestv numeric
+@attribute ed numeric
+@attribute di numeric
+@attribute econom numeric
+@attribute taylor numeric
+@attribute hbo numeric
+@attribute swift numeric
+@attribute halloween numeric
+@attribute show numeric
+@attribute offici numeric
+@attribute season numeric
+@attribute approv numeric
+@attribute bit numeric
+@attribute market numeric
+@attribute job numeric
+@attribute tv numeric
+@attribute debat numeric
+@attribute devic numeric
+@attribute growth numeric
+@attribute ad numeric
+@attribute street numeric
+@attribute espn numeric
+@attribute zealand numeric
+@attribute throw numeric
+@attribute half numeric
+@attribute militari numeric
+@attribute bug numeric
+@attribute keyston numeric
+@attribute seahawk numeric
+@attribute hillari numeric
+@attribute dead numeric
+@attribute congress numeric
+@attribute recap numeric
+@attribute voter numeric
+@attribute fifa numeric
+@attribute speaker numeric
+@attribute nexu numeric
+@attribute texa numeric
+@attribute hand numeric
+@attribute william numeric
+@attribute babi numeric
+@attribute hei numeric
+@attribute victori numeric
+@attribute fed numeric
+@attribute florida numeric
+@attribute firm numeric
+@attribute servic numeric
+@attribute date numeric
+@attribute wsj numeric
+@attribute execut numeric
+@attribute detail numeric
+@attribute pass numeric
+@attribute industri numeric
+@attribute compani numeric
+@attribute photo numeric
+@attribute ban numeric
+@attribute syria numeric
+@attribute field numeric
+@attribute miliband numeric
+@attribute loan numeric
+@attribute joe numeric
+@attribute movi numeric
+@attribute finish numeric
+@attribute bieber numeric
+@attribute injuri numeric
+@attribute smartphon numeric
+@attribute netflix numeric
+@attribute expandni numeric
+@attribute print numeric
+@attribute window numeric
+@attribute champion numeric
+@attribute iraq numeric
+@attribute jasonkennedi numeric
+@attribute joan numeric
+@attribute respons numeric
+@attribute chart numeric
+@attribute boehner numeric
+@attribute saturdai numeric
+@attribute brief numeric
+@attribute jennif numeric
+@attribute howardkurtz numeric
+@attribute actress numeric
+@attribute askforb numeric
+@attribute knee numeric
+@attribute beyonc numeric
+@attribute kurtz numeric
+@attribute iowa numeric
+@attribute shot numeric
+@attribute entrepreneur numeric
+@attribute secretari numeric
+@attribute space numeric
+@attribute mockingjai numeric
+@attribute willmarfuggi numeric
+@attribute royal numeric
+@attribute drone numeric
+@attribute wale numeric
+@attribute award numeric
+@attribute leav numeric
+@attribute exclus numeric
+@attribute premier numeric
+@attribute jame numeric
+@attribute weekend numeric
+@attribute true numeric
+@attribute straight numeric
+@attribute oct numeric
+@attribute patriot numeric
+@attribute comput numeric
+@attribute group numeric
+@attribute halftim numeric
+@attribute duke numeric
+@attribute smart numeric
+@attribute scottish numeric
+@attribute stream numeric
+@attribute invest numeric
+@attribute robot numeric
+@attribute rush numeric
+@attribute perri numeric
+@attribute tour numeric
+@attribute daughter numeric
+@attribute red numeric
+@attribute alibaba numeric
+@attribute feder numeric
+@attribute surpris numeric
+@attribute suprem numeric
+@attribute retail numeric
+@attribute polic numeric
+@attribute justin numeric
+@attribute engadget numeric
+@attribute album numeric
+@attribute airbag numeric
+@attribute sequel numeric
+@attribute peyton numeric
+@attribute ama numeric
+@attribute er numeric
+@attribute arlene_santana numeric
+@attribute nasa numeric
+@attribute tablet numeric
+@attribute scnottop numeric
+@attribute carpet numeric
+@attribute terrencej numeric
+@attribute politician numeric
+@attribute gossip numeric
+@attribute ecb numeric
+@attribute lebron numeric
+@attribute syrian numeric
+@attribute alaska numeric
+@attribute mlb numeric
+@attribute debt numeric
+@attribute athlet numeric
+@attribute verizon numeric
+@attribute downei numeric
+@attribute softwar numeric
+@attribute holder numeric
+@attribute lg numeric
+@attribute river numeric
+@attribute wearabl numeric
+@attribute ferguson numeric
+@attribute girl numeric
+@attribute sign numeric
+@attribute let numeric
+@attribute administr numeric
+@attribute instagram numeric
+@attribute nokia numeric
+@attribute scott numeric
+@attribute technolog numeric
+@attribute common numeric
+@attribute trail numeric
+@attribute android numeric
+@attribute cameron numeric
+@attribute ebai numeric
+@attribute episod numeric
+@attribute wait numeric
+@attribute islam numeric
+@attribute pipelin numeric
+@attribute financi numeric
+@attribute miami numeric
+@attribute ball numeric
+@attribute kentucki numeric
+@attribute alabama numeric
+@attribute size numeric
+@attribute hollywood numeric
+@attribute robin numeric
+@attribute resign numeric
+@attribute wisconsin numeric
+@attribute link numeric
+@attribute sportscent numeric
+@attribute m numeric
+@attribute jessica numeric
+@attribute jparkabc numeric
+@attribute panther numeric
+@attribute hottieoftheweek numeric
+@attribute laker numeric
+@attribute mayor numeric
+@attribute forgotten numeric
+@attribute oriol numeric
+@attribute jessegid numeric
+@attribute marcmalkin numeric
+@attribute jimmi numeric
+@attribute pacquiao numeric
+@attribute ballot numeric
+@attribute intercept numeric
+@attribute youtub numeric
+@attribute raider numeric
+@attribute cowboi numeric
+@attribute rebel numeric
+@attribute alli numeric
+@attribute tesco numeric
+@attribute devon numeric
+@attribute djokov numeric
+@attribute cloonei numeric
+@attribute manni numeric
+@attribute gun numeric
+@attribute hacker numeric
+@attribute fsu numeric
+@attribute cma numeric
+@attribute sneak numeric
+@attribute kenbakernow numeric
+@attribute alex numeric
+@attribute con numeric
+@attribute dunk numeric
+@attribute kasem numeric
+@attribute page numeric
+@attribute mcconnel numeric
+@attribute messi numeric
+@attribute nishikori numeric
+@attribute bush numeric
+@attribute airstrik numeric
+@attribute ipad numeric
+@attribute jersei numeric
+@attribute cfc numeric
+@attribute qb numeric
+@attribute basebal numeric
+@attribute wigan numeric
+@attribute bbcrugbi numeric
+@attribute welsh numeric
+@attribute bbctenni numeric
+@attribute leadership numeric
+@attribute watchespn numeric
+@attribute milei numeric
+@attribute usc numeric
+@attribute bengal numeric
+@attribute baylor numeric
+@attribute bizdaili numeric
+@attribute melaniebromlei numeric
+@attribute chrysler numeric
+@attribute hagan numeric
+@attribute honda numeric
+@attribute salmond numeric
+@attribute rememb numeric
+@attribute wai numeric
+@attribute gov numeric
+@attribute afc numeric
+@attribute tilli numeric
+@attribute daili numeric
+@attribute legisl numeric
+@attribute opera numeric
+@attribute tcu numeric
+@attribute cardin numeric
+@attribute undersummit numeric
+@attribute band numeric
+@attribute sprint numeric
+@attribute spotifi numeric
+@attribute sport numeric
+@attribute univers numeric
+@attribute spy numeric
+@attribute split numeric
+@attribute stai numeric
+@attribute stage numeric
+@attribute squar numeric
+@attribute unlimit numeric
+@attribute unlock numeric
+@attribute spi numeric
+@attribute speed numeric
+@attribute user numeric
+@attribute tax numeric
+@attribute urg numeric
+@attribute updat numeric
+@attribute up numeric
+@attribute unveil numeric
+@attribute spend numeric
+@attribute taxi numeric
+@attribute unit numeric
+@attribute special numeric
+@attribute mix numeric
+@attribute missouri numeric
+@attribute state numeric
+@attribute mexico numeric
+@attribute station numeric
+@attribute step numeric
+@attribute michael numeric
+@attribute stock numeric
+@attribute stick numeric
+@attribute steve numeric
+@attribute startup numeric
+@attribute start numeric
+@attribute twitter numeric
+@attribute mcdonnel numeric
+@attribute stake numeric
+@attribute stand numeric
+@attribute uk numeric
+@attribute showtim numeric
+@attribute mitch numeric
+@attribute telecom numeric
+@attribute member numeric
+@attribute uber numeric
+@attribute shellshock numeric
+@attribute thing numeric
+@attribute mitt numeric
+@attribute social numeric
+@attribute water numeric
+@attribute watchdog numeric
+@attribute softbank numeric
+@attribute watch numeric
+@attribute watson numeric
+@attribute solar numeric
+@attribute warn numeric
+@attribute techbusi numeric
+@attribute sleep numeric
+@attribute weak numeric
+@attribute site numeric
+@attribute shut numeric
+@attribute web numeric
+@attribute smartwatch numeric
+@attribute weather numeric
+@attribute smash numeric
+@attribute slide numeric
+@attribute slow numeric
+@attribute snapchat numeric
+@attribute snap numeric
+@attribute warfar numeric
+@attribute song numeric
+@attribute warcraft numeric
+@attribute sourc numeric
+@attribute view numeric
+@attribute version numeric
+@attribute mccain numeric
+@attribute modi numeric
+@attribute war numeric
+@attribute vallei numeric
+@attribute ventur numeric
+@attribute south numeric
+@attribute virtual numeric
+@attribute vodafon numeric
+@attribute voic numeric
+@attribute wallet numeric
+@attribute soni numeric
+@attribute vote numeric
+@attribute sharp numeric
+@attribute sound numeric
+@attribute walk numeric
+@attribute vr numeric
+@attribute mitchel numeric
+@attribute skype numeric
+@attribute stolen numeric
+@attribute thought numeric
+@attribute traffic numeric
+@attribute shopper numeric
+@attribute surveil numeric
+@attribute surfac numeric
+@attribute tough numeric
+@attribute surviv numeric
+@attribute touch numeric
+@attribute top numeric
+@attribute tor numeric
+@attribute thanksgiv numeric
+@attribute tower numeric
+@attribute toyota numeric
+@attribute track numeric
+@attribute silk numeric
+@attribute super numeric
+@attribute trade numeric
+@attribute supplier numeric
+@attribute support numeric
+@attribute moment numeric
+@attribute talk numeric
+@attribute text numeric
+@attribute tracker numeric
+@attribute @@class@@ {technology,politics,entertainment,sport,business}
+
+@data
+{104 1}
+{56 1,101 1}
+{188 1}
+{21 1}
+{62 1,89 1,497 1}
+{259 1,481 1}
+{}
+{91 1,95 1,189 1}
+{50 1,105 1}
+{217 1,435 1}
+{60 1,161 1,171 1,404 1}
+{}
+{40 1,86 1}
+{}
+{57 1}
+{17 1,91 1}
+{34 1,110 1,418 1,490 1}
+{21 1,43 1}
+{40 1,473 1}
+{40 1}
+{50 1,236 1,408 1}
+{25 1,402 1}
+{7 1,161 1}
+{47 1,89 1,104 1}
+{229 1}
+{}
+{25 1,40 1,142 1}
+{192 1}
+{40 1,140 1,480 1}
+{3 1,50 1,148 1,335 1}
+{}
+{45 1}
+{}
+{7 1,91 1,233 1,285 1,290 1}
+{42 1,302 1,468 1}
+{51 1,429 1}
+{92 1,108 1,316 1}
+{382 1}
+{432 1}
+{}
+{50 1,383 1}
+{7 1}
+{40 1,287 1,455 1}
+{}
+{7 1,84 1}
+{176 1,427 1}
+{40 1,58 1}
+{105 1,133 1,189 1}
+{42 1}
+{56 1,221 1,450 1}
+{84 1,292 1}
+{471 1}
+{56 1,60 1,100 1,397 1}
+{57 1,452 1}
+{60 1,236 1}
+{476 1}
+{138 1}
+{164 1}
+{17 1,40 1}
+{17 1,40 1,175 1}
+{140 1,233 1}
+{34 1,65 1,290 1}
+{276 1,278 1,282 1}
+{384 1,427 1}
+{42 1}
+{47 1,131 1,175 1,184 1,435 1}
+{384 1,427 2}
+{76 1,111 1,149 1,159 1,404 1}
+{11 1,140 1}
+{40 1,106 1,142 1,324 1}
+{34 1}
+{191 1}
+{40 1,42 1,89 1}
+{189 1}
+{7 1}
+{}
+{7 1,62 1}
+{45 1}
+{}
+{43 1,141 1,449 1}
+{19 1,350 1}
+{60 1,461 1}
+{19 1,95 1,274 1,396 1}
+{}
+{19 1,140 1}
+{50 1,53 1}
+{7 1,92 1,433 1}
+{}
+{450 1}
+{60 1}
+{140 1,233 1}
+{}
+{335 1}
+{7 1,19 1,89 1}
+{42 1,250 1,376 1}
+{17 1}
+{57 1}
+{136 1}
+{221 1,243 1}
+{}
+{140 1,159 1}
+{87 1,163 1}
+{56 1}
+{490 1}
+{}
+{}
+{43 1,461 1}
+{34 1,111 1,192 1}
+{237 1}
+{34 1,53 1,101 1,292 1}
+{42 1,447 1,492 1}
+{}
+{42 1}
+{40 1}
+{272 1}
+{}
+{191 1}
+{89 1,169 1,439 1}
+{25 1,58 1,60 1,402 1}
+{45 1,188 1,285 1,401 1}
+{191 1,213 1,258 1}
+{89 1,439 1}
+{7 1}
+{57 1,174 1}
+{}
+{101 1,213 1,316 1,442 1}
+{56 1,92 1,397 1}
+{}
+{235 1}
+{25 1,53 1}
+{19 1,37 1}
+{7 1}
+{50 1,100 1,110 1}
+{86 1,171 1,274 1}
+{}
+{}
+{42 1,45 1,233 1,382 2}
+{411 1}
+{101 1}
+{237 1}
+{145 1,189 1}
+{62 1,292 1,388 1}
+{53 1,395 1}
+{}
+{190 1}
+{34 1}
+{21 1,188 1,276 1}
+{445 1}
+{56 1,247 1}
+{110 1,290 1,422 1}
+{427 1}
+{}
+{25 1,344 1}
+{}
+{7 1,91 1,111 1,159 1,161 1,259 1}
+{25 1,58 1,135 1}
+{483 1}
+{42 1,485 1}
+{140 1,259 1}
+{58 1,478 1}
+{40 1}
+{19 1,149 1}
+{25 1}
+{110 1,276 1}
+{89 1,100 1}
+{}
+{40 1}
+{}
+{7 1,159 1,161 2}
+{}
+{148 1}
+{25 1}
+{34 1,294 1}
+{47 1,87 1,104 1,435 1}
+{95 1,431 1}
+{191 1}
+{91 1,447 1,492 1}
+{398 1}
+{}
+{240 1,460 1}
+{110 1,393 1,484 1}
+{171 1,434 1}
+{47 1,176 1,217 1}
+{17 1}
+{177 1}
+{438 1}
+{456 1}
+{25 1}
+{335 1}
+{272 1}
+{19 1,95 1,287 1,435 1}
+{7 1,287 1}
+{40 1}
+{19 1}
+{45 1,101 1,445 1}
+{149 1,274 1}
+{302 1}
+{37 1,100 1}
+{87 1,394 1}
+{159 1,383 1}
+{21 1,141 1,142 1}
+{497 1}
+{42 1,43 1,64 1}
+{7 1,38 1,169 1}
+{58 1,456 1}
+{42 1}
+{7 1,111 1}
+{87 1}
+{190 1,497 1}
+{}
+{}
+{435 1}
+{}
+{421 1}
+{42 1}
+{50 1,109 1,143 1,398 1}
+{63 1,101 1}
+{19 1,24 1,106 2,235 1,497 1}
+{397 1}
+{280 1}
+{}
+{86 2,387 1,394 1}
+{}
+{136 1}
+{437 1}
+{131 1}
+{489 1}
+{53 1,100 1,140 1}
+{40 1,42 1,89 1}
+{335 1,485 1}
+{43 1,110 1,250 1,376 1}
+{7 1,316 1}
+{303 1}
+{76 1}
+{233 2}
+{}
+{}
+{12 1,25 1,344 1,396 1}
+{19 1,95 1,149 1}
+{25 1,418 1}
+{40 1}
+{40 1,468 1}
+{}
+{76 1,213 1}
+{86 1,297 1}
+{7 1,188 1,190 1}
+{42 1,382 1,445 1}
+{60 1,243 1,485 1}
+{43 1,276 1}
+{7 1,19 1,34 1,45 1,111 1,278 1,382 1}
+{17 1,78 1,423 1}
+{}
+{282 1}
+{213 1,299 1}
+{42 1}
+{21 1}
+{17 1,42 1,53 1}
+{184 1,435 1}
+{17 1,40 1,142 1}
+{19 1,86 1}
+{24 1,87 1,161 1,278 1}
+{131 1,280 1}
+{19 1,34 1,37 1,111 1}
+{50 1,100 1,171 1,488 1}
+{87 1,307 1}
+{28 1,418 1}
+{42 1,159 1}
+{17 1,66 1}
+{40 1,287 1}
+{40 1}
+{101 1}
+{45 1,188 1,285 1,401 1}
+{95 1}
+{}
+{45 1,142 1}
+{}
+{43 1,169 1,389 1}
+{40 1,490 1}
+{50 1,138 1,171 1,416 1}
+{37 1,50 1,89 1,175 1,274 1,493 1}
+{25 1,243 1}
+{420 1,426 1}
+{293 1}
+{95 1}
+{45 1,86 1,399 1}
+{7 1,64 1,159 1,161 1}
+{60 1,274 1}
+{40 1,464 1}
+{37 1,92 2,425 1}
+{92 1,100 1}
+{}
+{40 1}
+{106 1,169 1,324 1,401 1}
+{84 1,138 1}
+{}
+{42 1}
+{95 1}
+{101 1,189 1}
+{}
+{292 1}
+{66 1,385 1}
+{42 1,110 1}
+{37 1,45 1,101 1}
+{}
+{}
+{19 1,175 1,285 1,435 2,496 1}
+{40 1,192 1}
+{440 1}
+{25 1,344 1}
+{110 1,285 1,409 1}
+{19 1,278 1}
+{56 1,92 1,397 1}
+{17 1,174 1}
+{190 1}
+{248 1}
+{57 1,60 1,62 1,100 1,490 1}
+{17 1}
+{229 1}
+{40 1,284 1}
+{50 1,92 1}
+{237 1}
+{184 1}
+{104 1,126 1,438 1}
+{278 1}
+{25 1,221 1,411 1}
+{110 1,393 1,417 1}
+{40 1,56 1,75 1,189 1,417 1,490 1}
+{7 1,469 1}
+{56 1,111 1,171 1}
+{63 1}
+{28 1,51 1,418 1}
+{149 1,229 1,387 1}
+{}
+{105 1,250 1}
+{40 1,89 1,385 1}
+{17 1,40 1}
+{40 1,258 1}
+{40 1,56 1,142 1,169 1,235 1,495 1}
+{25 1,34 1}
+{20 1,43 1,60 1}
+{40 1,184 1,454 1}
+{19 1,101 1,227 1,287 1,350 1,405 1}
+{19 1,259 1,350 1,457 1}
+{84 1,141 1,189 1,449 1}
+{37 1,40 1,168 1,236 1}
+{}
+{19 1,57 1,171 1}
+{17 1,87 1}
+{40 1,190 1,471 1}
+{418 1}
+{45 1,171 1}
+{47 1,295 1,324 1}
+{40 1,217 1}
+{417 1}
+{}
+{62 1,101 1,436 1}
+{92 1}
+{316 1,344 1}
+{7 1,53 1,479 1}
+{}
+{149 1,486 1}
+{418 1,480 1}
+{}
+{397 1,478 1}
+{40 1}
+{250 1,376 1}
+{100 1,392 1}
+{11 1,142 1}
+{87 1}
+{40 1,42 1,89 1}
+{}
+{25 1,33 1,396 1}
+{394 1}
+{34 1,487 1}
+{7 1}
+{140 1,302 1}
+{34 1,487 1}
+{}
+{43 1,142 1,455 1}
+{}
+{19 1,396 1,428 1}
+{}
+{}
+{}
+{}
+{7 1}
+{229 1}
+{7 1,139 1}
+{42 1,192 1,235 1}
+{50 1,408 1}
+{25 1}
+{229 1}
+{451 1}
+{89 1}
+{217 1,435 1}
+{37 1,53 1,236 1,455 1}
+{89 1,422 1}
+{149 1}
+{56 1,65 1,250 1,376 1}
+{}
+{43 1,188 1}
+{7 1,92 1}
+{28 1,34 1,84 1,236 1,413 1}
+{237 1}
+{19 1,101 1,435 1}
+{171 1,217 1}
+{6 1,46 1}
+{}
+{161 1,272 1}
+{42 1}
+{57 1,95 1}
+{485 1}
+{190 1}
+{53 1,58 1}
+{40 1,235 1}
+{43 1,45 1,290 1}
+{40 1}
+{21 1,57 1}
+{}
+{45 1}
+{87 1,463 1}
+{43 1,62 1}
+{17 1}
+{246 1,280 1}
+{}
+{60 1,420 1,434 1}
+{40 1,169 1,237 1}
+{170 1,442 1}
+{43 1,464 1}
+{499 1}
+{19 1,53 1}
+{40 1,464 1}
+{87 1,258 1,302 1,401 1}
+{131 1,189 1}
+{41 1,191 1}
+{111 1}
+{60 1,229 1,236 1}
+{}
+{40 1,237 1}
+{34 1,53 1,101 1,142 1,292 1}
+{101 1}
+{40 1,110 1}
+{34 1,192 1,444 1}
+{37 1,142 1,243 1}
+{21 1,24 1}
+{25 1,87 1,469 1}
+{7 1,34 1,87 1,282 1,497 1}
+{191 1,213 1,258 1}
+{168 1,217 1}
+{175 1}
+{258 1,302 1}
+{140 1}
+{112 1,259 1,290 1,350 1,444 1}
+{19 1,37 1,104 1}
+{418 1}
+{83 1,111 1,276 1,435 1}
+{480 1}
+{}
+{42 1,53 1,272 1}
+{}
+{89 1,492 1}
+{}
+{}
+{}
+{40 1}
+{106 1,235 1}
+{}
+{213 1,410 1}
+{57 1,272 1}
+{}
+{7 1,282 1,444 1}
+{217 1,398 1}
+{34 1}
+{7 1,40 1}
+{43 1,53 1,57 1,449 1}
+{50 1,148 1,168 1,444 1}
+{}
+{20 1,50 1,89 1,168 1}
+{17 1,91 1,188 1,282 1,484 1,498 1}
+{86 1}
+{43 1,473 1}
+{17 1,497 1}
+{435 1}
+{88 1,143 1,460 1}
+{101 1,106 1,169 1,324 1}
+{440 1}
+{53 1,110 1}
+{56 1,398 1}
+{179 1,217 1,387 1,422 1}
+{40 1,142 1,284 1,417 1}
+{7 1,45 1,92 1}
+{}
+{45 1,192 1}
+{57 1}
+{}
+{237 1}
+{233 1,422 1}
+{}
+{37 1,57 1,243 1}
+{34 1,85 1,435 1}
+{0 1,58 1,72 1,435 1,500 politics}
+{0 1,5 1,6 1,46 1,435 1,456 1,500 politics}
+{67 1,178 1,268 1,500 politics}
+{6 1,40 1,288 1,500 politics}
+{23 1,104 1,289 1,500 politics}
+{50 1,81 1,500 politics}
+{28 1,50 1,495 1,500 politics}
+{13 1,35 1,263 1,435 1,500 politics}
+{500 politics}
+{3 1,31 1,50 1,469 1,500 politics}
+{0 1,14 1,375 1,441 1,500 politics}
+{0 1,72 1,418 1,500 politics}
+{23 1,66 1,138 1,139 1,167 1,500 politics}
+{3 1,16 1,41 1,124 1,500 politics}
+{5 1,36 1,40 1,84 1,500 politics}
+{14 1,500 politics}
+{3 1,16 1,20 1,500 politics}
+{17 1,460 1,500 politics}
+{22 1,99 1,500 politics}
+{40 1,500 politics}
+{26 1,86 1,500 politics}
+{3 1,6 1,35 1,134 1,296 1,500 politics}
+{0 1,3 1,150 1,500 politics}
+{52 1,103 1,139 1,167 1,420 1,500 politics}
+{77 1,85 1,101 1,169 1,218 1,500 politics}
+{69 1,183 1,500 politics}
+{0 1,435 1,500 politics}
+{62 1,500 politics}
+{3 1,41 1,286 1,500 politics}
+{13 1,500 politics}
+{0 1,5 1,172 1,401 1,500 politics}
+{16 1,41 1,142 1,500 politics}
+{44 1,357 1,469 1,500 politics}
+{20 1,22 1,36 1,212 1,422 1,500 politics}
+{246 1,500 politics}
+{3 1,41 1,113 1,268 2,294 1,469 1,500 politics}
+{49 1,500 politics}
+{92 1,124 1,181 1,220 1,422 1,438 1,500 politics}
+{0 1,10 1,306 1,500 politics}
+{0 1,14 1,148 1,359 1,500 politics}
+{14 1,86 2,500 politics}
+{36 1,78 1,500 politics}
+{12 1,18 1,99 2,107 1,500 politics}
+{50 1,178 1,500 politics}
+{500 politics}
+{32 1,322 1,500 politics}
+{33 1,500 politics}
+{69 1,183 1,429 1,500 politics}
+{26 1,139 1,457 2,500 politics}
+{0 1,86 1,500 politics}
+{239 1,500 politics}
+{0 1,3 1,4 1,5 1,31 1,398 1,500 politics}
+{36 1,68 1,78 1,162 1,500 politics}
+{35 1,197 1,288 1,390 1,431 1,500 politics}
+{103 1,114 1,306 1,500 politics}
+{50 1,86 1,485 1,500 politics}
+{0 1,14 1,500 politics}
+{85 1,169 1,500 politics}
+{86 1,230 1,244 1,500 politics}
+{6 1,46 1,69 1,328 1,500 politics}
+{50 1,246 1,500 politics}
+{6 1,46 1,86 1,173 1,500 politics}
+{44 1,124 1,181 1,500 politics}
+{89 1,295 1,408 1,435 1,500 politics}
+{234 1,500 politics}
+{395 1,500 politics}
+{22 1,23 1,397 1,500 politics}
+{0 1,33 1,72 1,158 1,178 1,199 1,311 1,500 politics}
+{0 1,5 1,500 politics}
+{500 politics}
+{500 politics}
+{373 1,419 1,500 politics}
+{12 1,22 1,226 1,500 politics}
+{212 1,500 politics}
+{0 1,49 1,500 politics}
+{3 1,78 1,139 1,500 politics}
+{10 1,36 1,68 1,500 politics}
+{103 1,281 1,500 politics}
+{36 1,71 1,78 1,124 1,181 1,234 1,340 1,370 1,500 politics}
+{86 1,148 1,194 1,422 1,500 politics}
+{6 1,113 1,345 1,500 politics}
+{13 1,163 1,500 politics}
+{35 1,94 1,150 1,158 1,199 1,296 1,500 politics}
+{315 1,422 1,484 1,500 politics}
+{22 1,52 1,68 1,78 1,500 politics}
+{0 1,132 1,220 1,275 1,283 1,500 politics}
+{6 1,288 1,500 politics}
+{50 1,62 1,67 1,102 1,500 politics}
+{16 1,94 1,408 1,497 1,500 politics}
+{36 1,78 1,500 politics}
+{5 1,26 1,44 1,68 1,92 1,500 politics}
+{402 1,500 politics}
+{397 1,500 politics}
+{244 1,433 1,500 politics}
+{13 1,35 1,435 1,500 politics}
+{6 1,46 1,500 politics}
+{373 1,435 1,443 1,500 politics}
+{55 1,500 politics}
+{0 1,16 1,435 1,500 politics}
+{13 1,35 1,435 1,500 politics}
+{3 1,94 1,281 1,500 politics}
+{500 politics}
+{13 1,209 1,411 1,500 politics}
+{14 1,500 politics}
+{0 1,33 1,85 1,134 1,500 politics}
+{3 1,52 1,67 1,102 1,114 1,142 1,401 1,500 politics}
+{42 1,500 politics}
+{0 1,5 1,72 1,158 1,199 1,500 politics}
+{94 1,500 politics}
+{0 1,5 1,500 politics}
+{154 1,426 1,435 1,500 politics}
+{31 1,463 1,500 politics}
+{172 1,500 politics}
+{10 1,131 1,500 politics}
+{0 1,10 1,154 1,500 politics}
+{6 1,10 1,46 1,88 1,385 1,500 politics}
+{0 1,5 1,6 1,71 1,500 politics}
+{36 1,52 1,85 1,234 1,359 1,500 politics}
+{0 1,455 1,500 politics}
+{0 1,33 1,497 1,500 politics}
+{194 1,349 1,500 politics}
+{44 1,500 politics}
+{0 1,460 1,500 politics}
+{500 politics}
+{500 politics}
+{35 1,44 1,60 1,500 politics}
+{5 1,500 politics}
+{14 1,148 1,500 politics}
+{154 1,426 1,500 politics}
+{20 1,422 1,469 1,500 politics}
+{85 1,386 1,500 politics}
+{275 1,279 1,500 politics}
+{0 1,6 1,16 1,500 politics}
+{94 1,288 1,368 1,500 politics}
+{22 1,79 1,402 1,500 politics}
+{422 1,500 politics}
+{5 1,23 1,500 politics}
+{0 1,18 1,142 1,345 1,500 politics}
+{179 1,291 1,500 politics}
+{3 1,50 1,150 1,296 1,469 1,500 politics}
+{44 1,340 1,370 1,500 politics}
+{68 1,500 politics}
+{28 1,71 1,77 1,218 1,248 1,500 politics}
+{16 1,50 1,500 politics}
+{62 1,94 1,137 1,500 politics}
+{60 1,134 1,397 1,500 politics}
+{10 1,18 1,113 1,390 1,500 politics}
+{23 1,500 politics}
+{327 1,500 politics}
+{44 1,69 1,328 1,500 politics}
+{33 1,422 1,500 politics}
+{50 1,132 1,409 1,500 politics}
+{22 1,26 1,78 1,79 1,86 1,165 1,500 politics}
+{275 1,500 politics}
+{26 1,469 1,500 politics}
+{0 1,22 1,294 1,500 politics}
+{500 politics}
+{12 1,18 1,99 2,107 1,500 politics}
+{0 1,14 1,72 1,500 politics}
+{13 1,35 1,239 1,500 politics}
+{500 politics}
+{23 1,132 1,239 1,500 politics}
+{28 1,58 1,77 1,141 1,449 1,500 politics}
+{31 1,52 1,315 1,500 politics}
+{23 1,67 1,102 1,500 politics}
+{435 1,497 1,500 politics}
+{67 1,102 1,246 1,268 1,500 politics}
+{3 1,10 1,177 1,500 politics}
+{0 1,134 1,203 1,208 1,500 politics}
+{50 1,132 1,148 1,460 1,500 politics}
+{58 1,92 1,500 politics}
+{0 1,50 1,179 1,398 1,460 1,500 politics}
+{28 1,137 1,500 politics}
+{14 1,179 1,230 1,455 1,500 politics}
+{15 1,26 1,36 1,77 1,78 1,397 1,500 politics}
+{500 politics}
+{0 1,52 1,114 1,142 1,322 1,500 politics}
+{14 1,500 politics}
+{16 1,50 1,113 1,150 1,377 1,500 politics}
+{283 1,500 politics}
+{26 1,40 1,79 1,500 politics}
+{3 1,12 1,16 1,20 1,50 1,107 1,500 politics}
+{22 1,500 politics}
+{22 1,263 1,438 1,469 1,500 politics}
+{40 1,79 1,500 politics}
+{0 1,6 1,22 1,46 1,50 1,500 politics}
+{69 1,183 1,429 1,435 1,500 politics}
+{0 1,14 1,239 1,500 politics}
+{69 1,183 1,500 politics}
+{12 1,20 1,23 1,31 1,41 1,500 politics}
+{203 1,208 1,500 politics}
+{31 1,500 politics}
+{36 1,71 2,78 1,234 1,305 1,500 politics}
+{0 1,1 1,500 politics}
+{14 1,85 1,132 1,166 1,248 1,438 1,500 politics}
+{44 1,500 politics}
+{50 1,417 1,500 politics}
+{3 1,41 1,52 1,209 1,500 politics}
+{79 1,500 politics}
+{49 1,500 politics}
+{50 1,246 1,417 1,469 2,500 politics}
+{0 1,14 1,500 politics}
+{500 politics}
+{138 1,402 1,437 1,500 politics}
+{0 1,50 1,281 1,500 politics}
+{6 1,18 1,52 1,62 1,397 1,500 politics}
+{0 1,10 1,295 1,328 1,408 1,500 politics}
+{33 1,435 1,500 politics}
+{18 1,294 1,500 politics}
+{6 1,500 politics}
+{35 1,500 politics}
+{0 1,13 1,35 1,49 1,435 1,500 politics}
+{0 1,3 1,6 1,72 1,134 1,148 1,267 1,311 1,377 1,500 politics}
+{5 1,35 1,50 1,500 politics}
+{0 1,10 1,99 1,177 1,289 1,500 politics}
+{142 1,500 politics}
+{0 1,179 1,500 politics}
+{94 1,481 1,500 politics}
+{62 1,500 politics}
+{282 1,322 1,389 1,500 politics}
+{13 1,348 1,432 1,500 politics}
+{0 1,12 1,107 1,194 1,500 politics}
+{0 1,435 1,500 politics}
+{248 1,279 1,500 politics}
+{500 politics}
+{68 1,397 1,500 politics}
+{134 1,154 1,267 1,327 1,500 politics}
+{47 1,137 1,158 1,160 1,368 1,375 1,500 politics}
+{26 1,40 1,500 politics}
+{409 1,429 1,500 politics}
+{68 1,408 1,500 politics}
+{0 1,5 1,6 1,46 1,103 1,500 politics}
+{0 1,6 1,12 1,46 1,72 1,496 1,500 politics}
+{0 1,174 1,348 1,500 politics}
+{0 1,5 1,199 1,438 1,500 politics}
+{13 1,152 1,348 2,500 politics}
+{422 1,472 1,500 politics}
+{0 1,10 1,295 1,328 1,408 1,500 politics}
+{22 1,40 1,103 1,138 1,139 1,500 politics}
+{178 1,397 1,469 1,500 politics}
+{18 1,52 1,500 politics}
+{0 1,10 1,23 1,31 1,41 1,500 politics}
+{469 1,500 politics}
+{52 1,500 politics}
+{67 1,102 1,246 1,500 politics}
+{41 1,134 1,150 1,154 1,296 1,377 1,500 politics}
+{36 1,500 politics}
+{26 1,500 politics}
+{33 1,132 1,160 1,485 1,500 politics}
+{0 1,33 1,49 1,435 1,500 politics}
+{23 1,41 1,160 1,500 politics}
+{500 politics}
+{6 1,46 1,169 1,500 politics}
+{3 1,16 1,20 1,22 1,50 1,500 politics}
+{500 politics}
+{55 1,156 1,500 politics}
+{0 1,5 1,114 1,172 1,238 1,438 1,500 politics}
+{248 1,500 politics}
+{218 1,263 1,500 politics}
+{0 1,194 1,500 politics}
+{0 1,5 1,49 1,435 1,500 politics}
+{500 politics}
+{77 1,78 1,174 1,218 1,500 politics}
+{390 1,500 politics}
+{0 1,14 1,49 1,294 1,500 politics}
+{36 1,44 1,71 1,234 1,500 politics}
+{40 1,148 1,172 1,194 1,349 1,500 politics}
+{13 1,35 1,49 1,209 1,435 1,500 politics}
+{49 1,212 1,359 1,500 politics}
+{55 1,220 1,422 1,495 1,500 politics}
+{13 1,152 1,209 1,435 1,500 politics}
+{0 1,5 1,68 1,101 1,230 1,408 1,500 politics}
+{71 1,92 1,291 1,438 1,500 politics}
+{0 1,283 1,359 1,455 1,500 politics}
+{158 1,368 1,375 1,500 politics}
+{52 1,500 politics}
+{26 2,139 1,422 1,500 politics}
+{42 1,44 1,500 politics}
+{34 1,99 1,156 1,500 politics}
+{13 1,152 1,500 politics}
+{71 1,78 1,500 politics}
+{22 1,32 1,71 1,79 1,500 politics}
+{500 politics}
+{67 1,102 1,178 1,500 politics}
+{334 1,500 politics}
+{4 1,50 1,404 1,500 politics}
+{3 1,12 1,16 1,20 1,41 1,301 1,500 politics}
+{500 politics}
+{16 1,113 1,165 1,500 politics}
+{132 1,500 politics}
+{28 1,422 1,500 politics}
+{500 politics}
+{67 1,102 1,408 1,500 politics}
+{85 1,131 1,132 1,500 politics}
+{103 1,142 1,500 politics}
+{0 1,6 1,46 1,497 1,500 politics}
+{50 1,101 1,349 1,500 politics}
+{85 1,263 1,405 1,500 politics}
+{26 1,62 1,212 1,216 1,500 politics}
+{3 1,18 1,41 1,94 1,500 politics}
+{0 1,6 1,46 1,72 1,500 politics}
+{6 1,40 1,288 1,500 politics}
+{79 1,500 politics}
+{103 1,139 1,340 1,370 1,500 politics}
+{0 1,5 1,172 1,398 1,500 politics}
+{6 1,14 1,46 1,267 1,500 politics}
+{15 1,18 1,20 1,139 1,500 politics}
+{0 1,12 1,107 1,197 1,500 politics}
+{69 1,183 1,500 politics}
+{36 1,77 1,294 1,500 politics}
+{94 1,500 politics}
+{0 1,33 1,500 politics}
+{14 1,500 politics}
+{0 1,18 1,49 1,500 politics}
+{500 politics}
+{103 1,500 politics}
+{68 1,306 1,500 politics}
+{3 1,131 1,230 1,500 politics}
+{500 politics}
+{302 1,463 1,500 politics}
+{212 1,500 politics}
+{6 1,10 1,86 1,500 politics}
+{50 1,156 1,160 1,500 politics}
+{10 1,131 1,167 1,286 1,500 politics}
+{49 1,69 1,183 1,500 politics}
+{0 1,154 1,500 politics}
+{173 1,248 1,500 politics}
+{71 1,291 1,500 politics}
+{156 1,167 1,408 1,500 politics}
+{178 1,500 politics}
+{23 1,178 1,281 1,500 politics}
+{10 1,23 1,500 politics}
+{12 1,18 1,107 1,500 politics}
+{160 1,282 1,408 1,500 politics}
+{137 1,485 1,500 politics}
+{36 1,71 1,500 politics}
+{23 1,500 politics}
+{247 1,377 1,487 1,500 politics}
+{0 1,16 1,295 1,408 1,466 1,485 1,495 1,500 politics}
+{6 1,46 1,500 politics}
+{12 1,23 1,41 2,52 1,408 1,469 1,500 politics}
+{6 2,12 1,46 2,49 1,500 politics}
+{50 1,103 1,173 1,176 1,402 1,500 politics}
+{44 1,137 1,438 1,500 politics}
+{28 1,50 1,85 1,460 1,500 politics}
+{40 1,78 1,485 1,500 politics}
+{44 1,495 1,500 politics}
+{22 1,23 1,50 1,156 1,500 politics}
+{35 1,99 1,152 1,289 1,500 politics}
+{0 1,4 1,197 1,500 politics}
+{0 1,484 1,500 politics}
+{10 1,500 politics}
+{13 1,152 1,177 1,209 1,500 politics}
+{5 1,49 1,435 1,500 politics}
+{20 1,26 1,79 1,500 politics}
+{85 1,220 1,500 politics}
+{137 1,176 1,218 1,500 politics}
+{13 1,35 1,152 1,435 1,500 politics}
+{3 1,18 1,41 1,300 1,500 politics}
+{13 1,49 1,435 1,500 politics}
+{6 1,46 1,169 1,500 politics}
+{212 1,291 1,500 politics}
+{10 1,40 1,79 1,289 1,500 politics}
+{68 1,500 politics}
+{3 1,12 1,20 1,31 1,41 1,113 1,500 politics}
+{18 1,279 1,398 1,469 1,500 politics}
+{50 1,100 1,171 1,488 1,500 politics}
+{6 1,33 1,46 1,197 1,500 politics}
+{500 politics}
+{31 1,71 1,78 1,162 1,263 1,357 2,398 1,500 politics}
+{124 1,181 1,500 politics}
+{469 1,500 politics}
+{295 1,408 1,500 politics}
+{49 1,430 1,500 politics}
+{12 1,49 1,107 1,500 politics}
+{0 1,33 1,110 1,493 1,500 politics}
+{10 1,113 1,305 1,345 1,500 politics}
+{0 1,500 politics}
+{67 1,102 1,178 1,268 1,500 politics}
+{0 1,5 1,16 1,35 1,174 1,500 politics}
+{50 1,55 1,86 1,500 politics}
+{345 1,424 1,500 politics}
+{101 1,172 1,275 1,500 politics}
+{69 1,183 1,500 politics}
+{13 1,35 1,500 politics}
+{10 1,99 1,130 1,402 2,500 politics}
+{99 1,152 1,203 1,208 1,500 politics}
+{67 1,102 1,246 1,500 politics}
+{397 1,417 1,500 politics}
+{0 1,72 1,110 1,158 1,199 1,311 1,500 politics}
+{44 1,62 1,230 1,500 politics}
+{203 1,208 1,500 politics}
+{0 1,3 1,18 1,35 1,134 1,179 1,349 1,500 politics}
+{85 1,500 politics}
+{6 1,71 1,160 1,239 1,373 1,500 politics}
+{3 1,6 1,35 1,150 1,174 1,500 politics}
+{67 1,102 1,112 1,500 politics}
+{0 1,132 1,283 1,472 1,500 politics}
+{90 1,368 1,375 1,500 politics}
+{6 1,33 1,46 1,197 1,244 1,500 politics}
+{0 1,5 1,18 1,71 1,114 1,485 1,500 politics}
+{85 1,218 1,357 1,438 1,500 politics}
+{40 1,498 1,500 politics}
+{14 1,500 politics}
+{3 2,41 1,50 1,268 1,500 politics}
+{41 1,87 1,390 1,500 politics}
+{500 politics}
+{69 1,500 politics}
+{50 1,267 1,327 1,500 politics}
+{3 1,16 1,20 1,50 1,500 politics}
+{77 1,169 1,500 politics}
+{50 1,482 1,493 1,500 politics}
+{50 1,485 1,500 politics}
+{291 1,500 politics}
+{0 1,500 politics}
+{0 1,5 1,220 1,500 politics}
+{179 1,406 1,500 politics}
+{131 1,334 1,500 politics}
+{20 1,78 1,234 1,340 1,370 1,500 politics}
+{0 1,14 1,179 1,194 1,500 politics}
+{500 politics}
+{26 1,35 1,139 2,495 1,500 politics}
+{137 1,306 1,500 politics}
+{0 1,50 1,398 1,500 politics}
+{490 1,500 politics}
+{39 1,50 1,109 1,500 politics}
+{22 1,322 1,334 1,500 politics}
+{49 1,58 1,92 1,220 1,390 1,422 1,469 1,500 politics}
+{114 1,500 politics}
+{156 1,230 1,500 politics}
+{422 1,500 politics}
+{26 1,33 1,40 1,422 1,500 politics}
+{0 1,17 1,31 1,99 1,167 1,500 politics}
+{6 1,46 1,86 1,169 1,203 1,208 1,500 politics}
+{0 1,12 1,22 1,72 1,99 1,405 1,500 politics}
+{10 1,113 1,142 1,500 politics}
+{176 1,500 politics}
+{79 1,181 1,500 politics}
+{17 1,40 1,166 1,500 politics}
+{4 1,40 1,500 politics}
+{0 1,72 1,158 1,199 1,311 1,500 politics}
+{0 1,16 1,471 1,500 politics}
+{5 1,139 1,315 1,500 politics}
+{500 politics}
+{104 1,124 1,131 1,500 politics}
+{5 1,334 1,500 politics}
+{18 1,71 1,426 1,500 politics}
+{500 politics}
+{0 1,33 1,178 1,429 1,500 politics}
+{0 1,6 1,10 1,33 1,46 1,72 1,197 1,500 politics}
+{500 politics}
+{5 1,500 politics}
+{3 1,35 1,50 1,134 1,267 1,327 1,500 politics}
+{13 1,35 1,500 politics}
+{26 1,36 1,78 1,124 1,181 1,500 politics}
+{10 1,44 1,357 1,500 politics}
+{3 1,114 1,500 politics}
+{22 1,500 politics}
+{500 politics}
+{246 1,500 politics}
+{3 1,31 1,50 1,69 1,500 politics}
+{13 1,209 1,411 1,500 politics}
+{50 1,132 1,154 1,500 politics}
+{169 1,305 1,500 politics}
+{0 1,12 1,18 1,107 1,500 politics}
+{84 1,410 1,437 1,500 politics}
+{16 1,39 1,109 1,500 politics}
+{178 1,500 politics}
+{0 1,16 1,140 1,397 1,500 politics}
+{68 1,148 1,203 1,208 1,248 1,279 1,500 politics}
+{0 1,455 1,500 politics}
+{50 1,500 politics}
+{6 1,33 1,46 1,71 1,148 1,398 1,460 1,500 politics}
+{13 1,35 1,289 1,435 1,500 politics}
+{283 1,402 1,500 politics}
+{0 1,14 1,286 1,500 politics}
+{23 1,41 1,167 1,286 1,500 politics}
+{23 1,160 1,239 1,495 1,500 politics}
+{0 1,3 1,31 1,50 1,466 1,500 politics}
+{23 1,52 1,500 politics}
+{0 1,3 1,4 1,5 1,31 1,172 1,398 1,500 politics}
+{3 1,41 1,114 1,463 1,500 politics}
+{36 1,124 1,181 1,247 1,385 1,500 politics}
+{86 1,124 1,500 politics}
+{103 1,500 politics}
+{5 1,139 1,315 1,500 politics}
+{12 1,16 1,20 1,23 1,41 1,107 1,286 1,306 1,500 politics}
+{26 1,31 1,85 1,305 1,500 politics}
+{16 1,22 1,24 1,31 2,373 1,500 politics}
+{3 1,150 1,296 1,500 politics}
+{173 1,239 1,500 politics}
+{0 1,50 1,132 1,305 1,500 politics}
+{248 1,275 1,279 1,500 politics}
+{44 1,500 politics}
+{12 1,18 1,61 1,107 1,156 1,500 politics}
+{0 1,500 politics}
+{0 1,137 1,500 politics}
+{14 1,233 1,500 politics}
+{0 1,12 1,107 1,500 politics}
+{3 1,16 1,52 1,142 1,348 1,426 1,500 politics}
+{131 1,500 entertainment}
+{42 1,500 entertainment}
+{320 1,500 entertainment}
+{405 1,500 entertainment}
+{75 1,133 1,500 entertainment}
+{500 entertainment}
+{1 1,131 1,320 1,500 entertainment}
+{168 1,411 1,500 entertainment}
+{500 entertainment}
+{138 1,164 1,500 entertainment}
+{59 1,75 1,215 1,257 1,318 1,500 entertainment}
+{500 entertainment}
+{320 1,500 entertainment}
+{50 1,500 entertainment}
+{112 1,284 1,500 entertainment}
+{163 1,500 entertainment}
+{4 1,219 1,500 entertainment}
+{500 entertainment}
+{1 1,155 1,460 1,500 entertainment}
+{127 1,129 1,500 entertainment}
+{17 1,50 1,198 1,224 1,485 1,500 entertainment}
+{59 1,127 1,129 1,215 1,257 1,319 1,497 1,500 entertainment}
+{500 entertainment}
+{32 1,75 1,500 entertainment}
+{500 entertainment}
+{131 1,177 1,500 entertainment}
+{500 entertainment}
+{143 1,253 1,500 entertainment}
+{47 1,386 1,500 entertainment}
+{500 entertainment}
+{65 1,195 1,224 1,262 1,500 entertainment}
+{500 entertainment}
+{12 1,32 1,88 1,313 1,500 entertainment}
+{173 1,361 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{76 1,133 1,155 1,222 1,500 entertainment}
+{47 1,500 entertainment}
+{500 entertainment}
+{1 1,12 1,500 entertainment}
+{4 1,500 entertainment}
+{198 1,422 1,500 entertainment}
+{23 1,219 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{435 1,500 entertainment}
+{32 1,155 1,500 entertainment}
+{422 1,500 entertainment}
+{500 entertainment}
+{76 1,138 1,500 entertainment}
+{500 entertainment}
+{17 1,255 1,497 1,500 entertainment}
+{51 1,500 entertainment}
+{106 1,500 entertainment}
+{500 entertainment}
+{47 1,500 entertainment}
+{500 entertainment}
+{88 1,120 1,133 1,500 entertainment}
+{223 1,412 1,472 1,500 entertainment}
+{500 entertainment}
+{115 1,500 entertainment}
+{421 1,444 1,500 entertainment}
+{500 entertainment}
+{47 1,280 1,417 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{1 1,12 1,61 1,221 1,222 1,500 entertainment}
+{20 1,50 1,500 entertainment}
+{155 1,500 entertainment}
+{388 1,500 entertainment}
+{50 1,178 1,500 entertainment}
+{51 1,155 1,500 entertainment}
+{71 1,500 entertainment}
+{115 1,378 1,500 entertainment}
+{12 1,32 1,90 1,170 1,500 entertainment}
+{279 1,398 1,500 entertainment}
+{284 1,500 entertainment}
+{66 1,500 entertainment}
+{66 1,291 1,500 entertainment}
+{1 1,61 1,262 1,500 entertainment}
+{1 1,12 1,90 1,500 entertainment}
+{127 1,129 1,500 entertainment}
+{133 1,500 entertainment}
+{32 1,500 entertainment}
+{500 entertainment}
+{163 1,500 entertainment}
+{133 1,189 1,500 entertainment}
+{500 entertainment}
+{1 1,12 1,90 1,500 entertainment}
+{1 1,12 1,186 1,249 1,485 1,500 entertainment}
+{170 1,219 1,361 1,500 entertainment}
+{17 1,128 1,131 1,497 1,500 entertainment}
+{500 entertainment}
+{76 1,390 1,500 entertainment}
+{57 1,124 1,198 1,251 1,500 entertainment}
+{59 1,72 1,215 1,257 1,319 1,417 1,500 entertainment}
+{78 1,207 1,500 entertainment}
+{4 1,214 1,222 1,469 1,500 entertainment}
+{87 1,120 1,500 entertainment}
+{500 entertainment}
+{131 1,202 2,500 entertainment}
+{163 1,493 1,500 entertainment}
+{162 1,304 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{1 1,61 1,215 1,242 1,261 1,500 entertainment}
+{253 1,500 entertainment}
+{40 1,207 1,435 1,500 entertainment}
+{59 1,318 1,366 1,435 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{120 1,128 1,142 1,204 1,225 1,500 entertainment}
+{133 1,225 1,497 1,500 entertainment}
+{500 entertainment}
+{76 1,88 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{131 1,138 1,184 1,500 entertainment}
+{196 1,241 1,277 1,500 entertainment}
+{500 entertainment}
+{32 1,221 1,435 1,500 entertainment}
+{496 1,500 entertainment}
+{12 1,177 1,310 1,500 entertainment}
+{500 entertainment}
+{40 1,105 1,127 1,129 1,435 1,500 entertainment}
+{50 1,138 1,432 1,500 entertainment}
+{435 1,500 entertainment}
+{32 1,153 1,500 entertainment}
+{184 1,273 1,500 entertainment}
+{500 entertainment}
+{170 1,303 1,500 entertainment}
+{59 1,215 1,319 1,366 1,417 1,500 entertainment}
+{500 entertainment}
+{17 1,47 1,214 1,500 entertainment}
+{103 1,500 entertainment}
+{500 entertainment}
+{66 1,131 1,500 entertainment}
+{138 1,279 1,500 entertainment}
+{1 1,131 1,162 1,500 entertainment}
+{128 1,500 entertainment}
+{131 1,138 1,500 entertainment}
+{50 1,115 1,153 1,500 entertainment}
+{412 1,500 entertainment}
+{115 1,125 1,500 entertainment}
+{91 1,500 entertainment}
+{500 entertainment}
+{75 1,120 1,128 1,132 1,225 1,500 entertainment}
+{3 1,50 1,120 1,131 1,426 1,463 1,500 entertainment}
+{138 1,144 1,235 1,500 entertainment}
+{131 1,500 entertainment}
+{7 1,177 1,500 entertainment}
+{500 entertainment}
+{59 1,90 1,224 1,339 1,500 entertainment}
+{12 1,195 1,262 1,435 1,500 entertainment}
+{170 1,500 entertainment}
+{1 1,163 1,280 1,500 entertainment}
+{429 1,500 entertainment}
+{251 1,500 entertainment}
+{32 1,130 1,500 entertainment}
+{500 entertainment}
+{130 1,177 1,196 1,277 2,500 entertainment}
+{500 entertainment}
+{88 1,125 1,500 entertainment}
+{313 1,469 2,500 entertainment}
+{130 1,183 1,500 entertainment}
+{88 1,98 1,500 entertainment}
+{500 entertainment}
+{456 1,500 entertainment}
+{47 1,500 entertainment}
+{253 1,500 entertainment}
+{500 entertainment}
+{88 1,435 1,500 entertainment}
+{500 entertainment}
+{106 1,198 1,485 1,500 entertainment}
+{106 1,500 entertainment}
+{162 1,500 entertainment}
+{1 1,12 1,313 1,435 1,469 1,500 entertainment}
+{343 1,500 entertainment}
+{17 1,40 1,184 1,500 entertainment}
+{75 1,500 entertainment}
+{47 1,500 entertainment}
+{133 1,500 entertainment}
+{207 1,453 1,500 entertainment}
+{32 1,500 entertainment}
+{162 1,500 entertainment}
+{87 1,500 entertainment}
+{1 1,90 1,173 1,500 entertainment}
+{107 1,500 entertainment}
+{500 entertainment}
+{435 1,500 entertainment}
+{500 entertainment}
+{1 1,12 1,500 entertainment}
+{40 1,500 entertainment}
+{500 entertainment}
+{23 1,41 1,500 entertainment}
+{497 1,500 entertainment}
+{291 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{1 1,12 1,61 1,255 1,496 1,500 entertainment}
+{84 1,418 1,500 entertainment}
+{1 1,12 1,59 2,195 1,339 1,414 1,500 entertainment}
+{75 1,133 1,500 entertainment}
+{35 1,500 entertainment}
+{20 1,131 1,219 1,485 1,500 entertainment}
+{303 1,500 entertainment}
+{1 1,131 1,500 entertainment}
+{88 1,221 1,435 1,500 entertainment}
+{500 entertainment}
+{477 1,500 entertainment}
+{17 1,47 1,225 1,492 1,500 entertainment}
+{59 1,129 1,215 1,319 1,366 1,497 1,500 entertainment}
+{88 1,500 entertainment}
+{46 1,153 1,500 entertainment}
+{170 1,500 entertainment}
+{431 1,500 entertainment}
+{500 entertainment}
+{153 1,204 1,500 entertainment}
+{500 entertainment}
+{88 1,133 1,225 1,500 entertainment}
+{224 1,500 entertainment}
+{127 1,341 1,500 entertainment}
+{88 1,500 entertainment}
+{120 1,131 1,500 entertainment}
+{20 1,219 1,337 1,500 entertainment}
+{429 1,500 entertainment}
+{500 entertainment}
+{1 1,61 1,163 1,173 1,273 1,280 1,500 entertainment}
+{131 1,223 1,500 entertainment}
+{361 1,409 1,500 entertainment}
+{1 1,65 1,195 1,500 entertainment}
+{12 1,130 1,195 1,224 1,417 1,500 entertainment}
+{441 1,500 entertainment}
+{84 1,162 1,304 1,310 1,500 entertainment}
+{115 1,125 1,500 entertainment}
+{500 entertainment}
+{138 1,500 entertainment}
+{500 entertainment}
+{131 1,500 entertainment}
+{123 1,500 entertainment}
+{378 1,390 1,500 entertainment}
+{224 1,399 1,500 entertainment}
+{170 1,500 entertainment}
+{500 entertainment}
+{1 1,106 1,131 1,164 1,255 1,371 1,497 1,500 entertainment}
+{91 2,500 entertainment}
+{162 1,500 entertainment}
+{251 1,500 entertainment}
+{196 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{1 1,61 1,131 1,500 entertainment}
+{186 1,249 1,298 1,500 entertainment}
+{500 entertainment}
+{1 1,12 1,173 1,500 entertainment}
+{131 1,138 1,500 entertainment}
+{106 1,460 1,500 entertainment}
+{500 entertainment}
+{469 1,500 entertainment}
+{130 1,225 1,435 1,500 entertainment}
+{500 entertainment}
+{78 1,500 entertainment}
+{115 1,232 1,500 entertainment}
+{106 1,207 1,485 1,500 entertainment}
+{1 1,500 entertainment}
+{20 1,224 1,386 1,485 1,500 entertainment}
+{23 1,202 1,249 1,500 entertainment}
+{163 1,337 1,500 entertainment}
+{106 1,198 1,422 1,485 1,500 entertainment}
+{32 1,500 entertainment}
+{120 1,500 entertainment}
+{500 entertainment}
+{469 1,500 entertainment}
+{500 entertainment}
+{47 1,102 1,500 entertainment}
+{500 entertainment}
+{170 1,177 1,500 entertainment}
+{88 1,500 entertainment}
+{500 entertainment}
+{245 1,500 entertainment}
+{84 1,107 1,341 1,500 entertainment}
+{500 entertainment}
+{219 1,337 1,500 entertainment}
+{58 1,90 3,500 entertainment}
+{490 1,500 entertainment}
+{106 1,127 1,129 1,219 1,255 1,500 entertainment}
+{132 1,500 entertainment}
+{202 1,432 1,500 entertainment}
+{500 entertainment}
+{177 1,204 1,500 entertainment}
+{497 1,500 entertainment}
+{90 1,500 entertainment}
+{1 1,12 1,61 1,429 1,497 1,500 entertainment}
+{138 1,500 entertainment}
+{241 1,500 entertainment}
+{438 1,497 1,500 entertainment}
+{12 1,59 1,257 1,318 1,366 1,435 1,500 entertainment}
+{497 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{214 1,222 1,242 1,261 1,262 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{1 1,155 1,293 1,500 entertainment}
+{112 1,500 entertainment}
+{1 1,338 1,500 entertainment}
+{497 1,500 entertainment}
+{500 entertainment}
+{125 1,138 1,500 entertainment}
+{32 1,51 2,435 1,482 1,500 entertainment}
+{262 1,500 entertainment}
+{4 1,500 entertainment}
+{500 entertainment}
+{120 1,332 1,371 1,435 1,500 entertainment}
+{1 1,59 1,195 1,339 1,500 entertainment}
+{103 1,500 entertainment}
+{102 1,500 entertainment}
+{186 1,249 1,500 entertainment}
+{90 1,500 entertainment}
+{234 1,500 entertainment}
+{1 1,12 2,293 1,338 1,500 entertainment}
+{130 1,435 1,500 entertainment}
+{196 1,241 1,277 1,495 1,500 entertainment}
+{1 1,12 1,61 1,214 1,497 1,500 entertainment}
+{66 1,106 1,500 entertainment}
+{284 1,500 entertainment}
+{1 1,12 1,32 1,61 1,293 1,500 entertainment}
+{435 1,500 entertainment}
+{163 1,184 1,435 1,500 entertainment}
+{1 1,101 1,242 1,261 1,500 entertainment}
+{1 1,12 1,76 1,138 1,338 1,500 entertainment}
+{177 1,202 1,500 entertainment}
+{32 1,40 1,500 entertainment}
+{12 1,112 1,284 1,500 entertainment}
+{500 entertainment}
+{198 1,485 1,500 entertainment}
+{84 1,484 1,500 entertainment}
+{388 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{460 1,500 entertainment}
+{186 1,500 entertainment}
+{177 1,310 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{129 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{131 1,164 1,500 entertainment}
+{378 1,500 entertainment}
+{378 1,500 entertainment}
+{500 entertainment}
+{50 1,88 1,153 1,204 1,500 entertainment}
+{1 1,61 1,173 1,500 entertainment}
+{248 1,500 entertainment}
+{78 1,130 1,500 entertainment}
+{47 1,500 entertainment}
+{133 1,500 entertainment}
+{59 1,127 1,129 1,202 1,257 1,318 1,339 1,500 entertainment}
+{47 1,273 1,500 entertainment}
+{35 1,170 1,421 1,500 entertainment}
+{125 1,500 entertainment}
+{500 entertainment}
+{241 1,500 entertainment}
+{500 entertainment}
+{78 1,500 entertainment}
+{32 1,485 1,500 entertainment}
+{162 1,304 1,500 entertainment}
+{32 1,50 1,500 entertainment}
+{127 1,129 1,384 1,500 entertainment}
+{386 1,401 1,500 entertainment}
+{84 1,177 1,500 entertainment}
+{115 1,500 entertainment}
+{162 1,304 1,500 entertainment}
+{196 1,277 1,500 entertainment}
+{123 1,284 1,417 1,500 entertainment}
+{32 2,500 entertainment}
+{223 1,500 entertainment}
+{184 1,497 1,500 entertainment}
+{500 entertainment}
+{1 1,12 1,32 1,222 1,242 1,261 1,500 entertainment}
+{125 1,463 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{177 1,184 1,500 entertainment}
+{253 1,500 entertainment}
+{177 1,184 1,500 entertainment}
+{313 1,469 1,500 entertainment}
+{500 entertainment}
+{125 1,500 entertainment}
+{6 1,52 1,131 1,155 1,500 entertainment}
+{202 1,207 1,303 1,500 entertainment}
+{59 1,500 entertainment}
+{435 1,500 entertainment}
+{40 1,500 entertainment}
+{47 1,80 1,180 1,500 entertainment}
+{500 entertainment}
+{280 1,500 entertainment}
+{91 1,500 entertainment}
+{303 1,500 entertainment}
+{241 1,343 1,500 entertainment}
+{371 1,500 entertainment}
+{76 1,361 1,500 entertainment}
+{184 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{137 1,500 entertainment}
+{50 1,153 1,343 1,466 1,500 entertainment}
+{186 1,249 1,500 entertainment}
+{435 1,500 entertainment}
+{173 1,251 1,500 entertainment}
+{17 1,162 1,304 1,454 1,500 entertainment}
+{123 1,500 entertainment}
+{332 1,500 entertainment}
+{500 entertainment}
+{6 1,125 1,204 1,500 entertainment}
+{32 1,130 1,476 1,500 entertainment}
+{273 1,500 entertainment}
+{1 1,90 1,405 1,412 1,500 entertainment}
+{500 entertainment}
+{130 1,163 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{1 1,12 1,90 1,500 entertainment}
+{500 entertainment}
+{75 1,222 1,500 entertainment}
+{58 1,500 entertainment}
+{1 1,131 1,500 entertainment}
+{310 1,500 entertainment}
+{35 1,39 1,500 entertainment}
+{54 1,500 entertainment}
+{1 1,242 1,261 1,435 1,500 entertainment}
+{123 1,128 1,500 entertainment}
+{500 entertainment}
+{170 1,460 1,500 entertainment}
+{273 1,500 entertainment}
+{500 entertainment}
+{338 1,500 entertainment}
+{422 1,500 entertainment}
+{204 1,303 1,500 entertainment}
+{47 1,500 entertainment}
+{500 entertainment}
+{153 1,500 entertainment}
+{138 1,500 entertainment}
+{47 1,50 1,217 1,500 entertainment}
+{143 1,500 entertainment}
+{32 1,481 1,500 entertainment}
+{186 1,249 1,477 1,500 entertainment}
+{253 1,500 entertainment}
+{115 1,128 1,500 entertainment}
+{47 1,500 entertainment}
+{1 1,12 1,61 1,500 entertainment}
+{341 1,500 entertainment}
+{88 1,500 entertainment}
+{500 entertainment}
+{500 entertainment}
+{8 2,131 1,231 1,239 1,492 1,500 entertainment}
+{255 1,500 entertainment}
+{500 entertainment}
+{66 1,293 1,500 entertainment}
+{371 1,500 entertainment}
+{131 1,500 entertainment}
+{500 entertainment}
+{127 1,341 1,500 entertainment}
+{123 1,128 1,500 entertainment}
+{1 1,12 1,61 1,497 1,500 entertainment}
+{76 1,456 1,500 entertainment}
+{237 1,500 entertainment}
+{186 1,249 1,500 entertainment}
+{240 1,500 entertainment}
+{1 1,61 1,123 1,293 1,500 entertainment}
+{88 1,500 entertainment}
+{471 1,500 entertainment}
+{125 1,500 entertainment}
+{219 1,337 1,385 1,500 entertainment}
+{343 1,408 1,500 entertainment}
+{500 entertainment}
+{1 1,248 1,279 1,500 entertainment}
+{131 1,500 entertainment}
+{42 1,245 1,251 1,500 entertainment}
+{500 entertainment}
+{128 1,207 1,435 1,500 entertainment}
+{61 1,123 1,417 1,418 1,500 entertainment}
+{422 1,500 entertainment}
+{35 1,173 1,332 1,500 entertainment}
+{1 1,12 1,61 1,66 1,214 1,500 entertainment}
+{163 1,280 1,320 1,500 entertainment}
+{123 1,128 1,500 entertainment}
+{47 1,91 1,500 entertainment}
+{1 1,12 1,82 1,500 entertainment}
+{88 1,196 1,277 1,500 entertainment}
+{1 1,500 entertainment}
+{47 1,110 1,332 1,500 entertainment}
+{214 1,500 entertainment}
+{457 1,500 entertainment}
+{74 1,500 sport}
+{24 1,133 1,256 1,500 sport}
+{2 1,4 1,144 1,238 1,289 1,500 sport}
+{355 1,435 1,500 sport}
+{39 1,76 1,500 sport}
+{58 1,74 1,500 sport}
+{500 sport}
+{29 1,55 1,116 1,500 sport}
+{17 1,500 sport}
+{355 1,500 sport}
+{91 1,336 1,500 sport}
+{2 1,64 1,91 1,174 1,500 sport}
+{469 1,500 sport}
+{32 1,500 sport}
+{51 1,122 1,220 1,500 sport}
+{4 1,91 1,446 1,500 sport}
+{121 1,217 1,500 sport}
+{20 1,64 1,185 1,226 1,269 1,469 1,500 sport}
+{500 sport}
+{97 1,178 1,500 sport}
+{4 1,144 1,379 1,500 sport}
+{409 1,500 sport}
+{15 1,187 1,500 sport}
+{17 1,24 1,55 1,470 1,500 sport}
+{9 1,15 1,29 1,55 1,500 sport}
+{500 sport}
+{157 1,500 sport}
+{500 sport}
+{1 1,15 1,39 1,105 1,160 1,500 sport}
+{15 1,299 1,429 1,500 sport}
+{500 sport}
+{500 sport}
+{88 1,121 1,220 1,500 sport}
+{58 1,216 2,500 sport}
+{157 1,500 sport}
+{96 1,131 1,500 sport}
+{380 1,500 sport}
+{500 sport}
+{15 1,30 1,500 sport}
+{435 1,500 sport}
+{30 1,40 1,87 1,249 1,300 1,342 1,500 sport}
+{125 1,500 sport}
+{492 1,500 sport}
+{40 1,116 1,500 sport}
+{17 1,24 1,76 1,314 1,500 sport}
+{58 1,75 1,220 1,240 2,500 sport}
+{32 1,244 1,500 sport}
+{500 sport}
+{193 1,500 sport}
+{500 sport}
+{132 1,260 1,500 sport}
+{30 1,500 sport}
+{216 1,500 sport}
+{20 1,500 sport}
+{162 1,286 1,500 sport}
+{2 2,54 1,162 1,500 sport}
+{4 1,231 1,289 1,500 sport}
+{29 1,55 1,116 1,500 sport}
+{17 1,64 1,483 1,500 sport}
+{1 1,91 1,500 sport}
+{82 1,185 1,500 sport}
+{20 1,162 1,219 1,500 sport}
+{2 1,24 1,40 1,87 1,226 1,362 1,500 sport}
+{51 1,75 1,91 1,144 1,500 sport}
+{2 1,4 1,27 1,180 1,500 sport}
+{24 1,32 1,51 1,160 1,472 1,500 sport}
+{500 sport}
+{66 2,70 1,73 1,80 1,108 1,164 1,500 sport}
+{32 1,88 1,105 3,131 1,500 sport}
+{9 1,20 1,86 1,222 1,404 1,500 sport}
+{8 1,17 1,27 1,174 1,254 1,500 sport}
+{497 1,500 sport}
+{224 1,485 1,500 sport}
+{500 sport}
+{42 1,500 sport}
+{20 1,76 1,331 1,389 1,500 sport}
+{50 1,220 1,385 1,485 1,500 sport}
+{9 1,17 1,193 1,500 sport}
+{24 1,39 1,51 1,417 1,500 sport}
+{77 1,500 sport}
+{17 1,165 1,226 1,325 1,500 sport}
+{58 1,216 1,317 1,500 sport}
+{500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,500 sport}
+{77 1,500 sport}
+{8 1,96 1,500 sport}
+{29 1,55 1,116 1,500 sport}
+{58 1,500 sport}
+{15 1,88 1,160 1,500 sport}
+{4 1,500 sport}
+{399 1,500 sport}
+{20 1,298 1,336 1,500 sport}
+{112 1,220 1,264 1,500 sport}
+{321 1,333 1,500 sport}
+{8 1,50 1,245 1,500 sport}
+{4 1,17 1,39 1,93 1,119 1,500 sport}
+{356 1,469 1,500 sport}
+{312 1,415 1,500 sport}
+{58 1,74 1,500 sport}
+{271 1,355 1,500 sport}
+{240 1,500 sport}
+{8 1,17 1,39 1,241 1,330 1,500 sport}
+{104 1,397 1,500 sport}
+{17 1,32 1,76 1,112 1,245 1,496 1,500 sport}
+{17 1,20 1,317 1,500 sport}
+{20 1,87 1,232 1,500 sport}
+{58 1,82 1,500 sport}
+{66 1,398 1,417 1,500 sport}
+{20 1,97 1,500 sport}
+{104 1,145 1,185 1,500 sport}
+{8 1,51 1,245 1,500 sport}
+{2 1,27 1,232 1,484 1,500 sport}
+{8 1,90 2,210 1,269 1,500 sport}
+{116 2,210 2,500 sport}
+{410 1,500 sport}
+{4 1,17 1,500 sport}
+{2 1,82 1,353 1,362 1,500 sport}
+{24 1,97 1,167 1,180 1,408 1,500 sport}
+{321 1,333 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,271 1,500 sport}
+{51 1,62 1,500 sport}
+{500 sport}
+{55 1,162 1,219 1,269 1,317 1,500 sport}
+{61 1,360 1,362 1,500 sport}
+{435 1,500 sport}
+{105 1,223 1,266 1,342 1,500 sport}
+{380 1,500 sport}
+{244 1,500 sport}
+{4 1,500 sport}
+{217 1,225 1,500 sport}
+{32 1,88 1,105 3,131 1,500 sport}
+{40 1,66 1,210 1,240 1,260 1,500 sport}
+{76 1,187 1,206 1,500 sport}
+{64 1,485 1,500 sport}
+{500 sport}
+{9 1,15 1,29 1,55 1,500 sport}
+{500 sport}
+{121 1,463 1,500 sport}
+{17 1,132 1,256 1,500 sport}
+{240 1,500 sport}
+{15 1,180 1,500 sport}
+{17 1,39 1,87 1,91 1,500 sport}
+{15 2,91 1,224 1,500 sport}
+{157 1,426 1,500 sport}
+{264 1,331 1,500 sport}
+{112 1,500 sport}
+{17 1,58 1,216 1,500 sport}
+{9 1,15 1,29 1,55 1,500 sport}
+{217 1,500 sport}
+{97 1,352 1,500 sport}
+{500 sport}
+{40 1,500 sport}
+{500 sport}
+{119 1,228 1,326 1,380 1,500 sport}
+{9 1,15 1,29 1,55 1,500 sport}
+{75 1,162 1,500 sport}
+{24 1,30 1,51 1,116 1,131 1,300 1,485 1,500 sport}
+{64 1,500 sport}
+{500 sport}
+{39 4,90 2,167 1,301 1,364 1,379 1,485 2,500 sport}
+{131 1,500 sport}
+{242 1,500 sport}
+{4 1,27 1,105 1,174 1,363 1,500 sport}
+{500 sport}
+{111 1,498 1,500 sport}
+{245 1,500 sport}
+{90 1,161 1,500 sport}
+{174 1,185 1,500 sport}
+{64 1,500 sport}
+{17 1,105 1,242 1,323 1,500 sport}
+{447 1,500 sport}
+{4 1,30 1,105 1,151 1,325 1,500 sport}
+{286 1,500 sport}
+{112 1,264 1,500 sport}
+{17 1,500 sport}
+{500 sport}
+{39 3,90 2,301 1,336 1,364 1,379 1,485 1,500 sport}
+{49 1,77 1,157 1,500 sport}
+{500 sport}
+{54 1,500 sport}
+{9 1,30 1,39 1,40 1,54 1,97 1,193 1,346 1,500 sport}
+{2 2,4 1,93 1,363 1,500 sport}
+{220 1,497 1,500 sport}
+{58 1,271 1,500 sport}
+{182 1,352 1,500 sport}
+{8 1,50 1,500 sport}
+{30 1,76 1,200 1,400 1,500 sport}
+{64 1,90 1,97 1,180 1,500 sport}
+{385 1,500 sport}
+{500 sport}
+{435 1,500 sport}
+{133 1,500 sport}
+{2 1,4 1,17 1,54 1,151 1,226 1,238 1,500 sport}
+{2 1,30 1,161 1,500 sport}
+{15 1,500 sport}
+{20 1,27 1,89 1,104 1,160 1,379 1,500 sport}
+{440 1,500 sport}
+{500 sport}
+{87 1,500 sport}
+{116 1,485 1,500 sport}
+{15 1,51 1,55 1,500 sport}
+{49 1,244 1,500 sport}
+{4 1,91 1,500 sport}
+{24 1,500 sport}
+{58 1,74 1,77 1,500 sport}
+{500 sport}
+{15 1,64 1,87 1,232 1,500 sport}
+{61 1,82 1,435 1,500 sport}
+{74 1,76 1,331 1,500 sport}
+{281 1,500 sport}
+{4 1,20 1,417 1,500 sport}
+{500 sport}
+{19 1,64 1,111 1,500 sport}
+{500 sport}
+{40 1,97 1,304 1,500 sport}
+{24 1,75 1,244 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,242 1,500 sport}
+{91 1,139 1,187 1,500 sport}
+{58 1,500 sport}
+{17 1,200 1,500 sport}
+{17 1,161 1,187 1,485 1,500 sport}
+{314 1,417 1,500 sport}
+{145 1,435 1,500 sport}
+{167 1,301 1,408 1,500 sport}
+{4 1,144 1,185 1,500 sport}
+{2 1,24 1,39 1,76 1,93 1,500 sport}
+{421 1,500 sport}
+{165 1,500 sport}
+{4 1,20 1,54 1,104 1,165 1,500 sport}
+{91 1,206 1,306 1,360 1,500 sport}
+{271 1,355 1,435 1,500 sport}
+{8 1,64 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,500 sport}
+{51 1,122 1,500 sport}
+{321 1,333 1,500 sport}
+{500 sport}
+{40 1,82 1,399 1,500 sport}
+{40 1,87 1,301 1,483 1,500 sport}
+{17 1,66 1,144 1,417 1,500 sport}
+{374 1,500 sport}
+{4 1,104 1,122 1,232 1,408 1,500 sport}
+{299 1,500 sport}
+{9 1,71 1,97 1,193 1,346 1,500 sport}
+{55 1,121 1,463 1,500 sport}
+{2 1,4 2,27 1,500 sport}
+{9 1,193 1,500 sport}
+{500 sport}
+{165 1,500 sport}
+{20 1,41 1,82 1,500 sport}
+{8 1,88 1,121 1,500 sport}
+{2 1,4 1,162 1,174 1,298 1,336 1,360 1,500 sport}
+{51 1,500 sport}
+{15 1,500 sport}
+{500 sport}
+{75 1,500 sport}
+{500 sport}
+{500 sport}
+{145 1,218 1,500 sport}
+{4 1,27 1,146 1,167 1,298 1,408 1,500 sport}
+{54 1,352 1,500 sport}
+{20 1,57 1,133 1,165 1,500 sport}
+{500 sport}
+{223 1,500 sport}
+{87 1,210 1,266 1,421 1,500 sport}
+{157 1,500 sport}
+{127 1,129 1,500 sport}
+{64 1,469 1,500 sport}
+{51 1,500 sport}
+{500 sport}
+{161 1,500 sport}
+{17 1,89 1,91 1,105 1,187 1,353 1,436 1,500 sport}
+{15 1,51 1,87 1,88 1,351 1,500 sport}
+{385 1,500 sport}
+{429 1,500 sport}
+{58 1,178 1,216 1,410 1,453 1,500 sport}
+{1 1,206 1,314 1,500 sport}
+{1 1,167 1,298 1,408 1,500 sport}
+{2 1,24 1,39 1,93 2,238 1,500 sport}
+{9 1,29 1,55 1,500 sport}
+{20 1,58 1,485 1,500 sport}
+{91 1,500 sport}
+{133 1,187 1,500 sport}
+{271 1,432 1,500 sport}
+{500 sport}
+{500 sport}
+{77 1,500 sport}
+{77 1,500 sport}
+{58 1,500 sport}
+{62 1,147 1,218 1,356 1,417 1,500 sport}
+{9 1,15 1,29 1,55 1,500 sport}
+{17 1,39 1,226 1,500 sport}
+{2 1,4 1,27 1,54 1,119 1,231 1,254 1,325 1,500 sport}
+{30 1,105 1,485 1,500 sport}
+{20 1,32 1,151 1,500 sport}
+{32 1,39 1,147 1,223 1,266 1,500 sport}
+{496 1,500 sport}
+{2 1,4 1,174 1,326 1,380 1,500 sport}
+{112 1,200 1,500 sport}
+{32 1,146 1,342 1,500 sport}
+{24 1,358 1,500 sport}
+{20 1,24 1,75 1,104 1,122 1,232 1,500 sport}
+{8 1,51 1,485 1,500 sport}
+{9 1,29 1,354 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,312 2,500 sport}
+{30 1,146 1,409 1,500 sport}
+{496 1,500 sport}
+{8 1,308 1,500 sport}
+{1 1,30 1,91 2,112 1,308 1,485 1,500 sport}
+{51 1,116 1,500 sport}
+{500 sport}
+{4 1,210 1,500 sport}
+{119 1,500 sport}
+{500 sport}
+{264 1,374 1,500 sport}
+{75 1,244 1,358 1,500 sport}
+{2 1,24 1,54 1,104 1,119 1,146 1,254 1,500 sport}
+{90 1,145 1,200 1,218 1,500 sport}
+{2 1,27 2,76 1,299 1,500 sport}
+{9 1,133 1,417 1,500 sport}
+{9 1,29 1,354 1,500 sport}
+{66 1,256 1,500 sport}
+{9 1,29 1,55 1,500 sport}
+{500 sport}
+{112 1,264 1,374 1,500 sport}
+{17 1,20 1,500 sport}
+{12 1,330 1,351 1,363 1,500 sport}
+{135 1,146 1,260 1,500 sport}
+{9 1,222 1,352 1,485 1,500 sport}
+{32 1,66 1,87 1,408 1,500 sport}
+{17 1,76 1,245 1,300 1,407 1,435 1,500 sport}
+{144 1,500 sport}
+{32 1,165 1,216 1,226 1,485 1,500 sport}
+{90 1,145 1,435 1,500 sport}
+{82 1,347 1,500 sport}
+{500 sport}
+{58 1,74 1,77 1,469 1,495 1,500 sport}
+{385 1,498 1,500 sport}
+{500 sport}
+{4 1,17 1,187 1,353 1,412 1,500 sport}
+{90 1,121 1,260 1,500 sport}
+{1 1,133 1,500 sport}
+{435 1,500 sport}
+{20 1,96 1,105 1,500 sport}
+{4 1,54 1,147 1,231 1,245 1,500 sport}
+{17 1,88 1,500 sport}
+{146 1,415 1,500 sport}
+{27 2,238 1,500 sport}
+{404 1,408 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,500 sport}
+{312 1,500 sport}
+{40 1,299 1,500 sport}
+{75 1,358 1,477 1,500 sport}
+{4 1,317 1,500 sport}
+{281 1,346 1,374 1,435 1,500 sport}
+{41 1,500 sport}
+{51 1,96 1,133 1,269 1,500 sport}
+{412 1,497 1,500 sport}
+{2 1,4 1,39 1,77 1,93 1,119 1,147 1,174 1,228 1,500 sport}
+{8 1,435 1,500 sport}
+{4 2,231 1,256 2,500 sport}
+{500 sport}
+{58 1,74 1,500 sport}
+{421 1,500 sport}
+{8 1,206 1,256 1,500 sport}
+{122 1,299 1,415 1,500 sport}
+{88 1,223 1,346 1,390 1,500 sport}
+{8 1,51 1,500 sport}
+{58 1,74 1,157 1,500 sport}
+{66 1,121 1,485 1,500 sport}
+{17 1,35 1,54 1,104 1,500 sport}
+{20 1,74 1,500 sport}
+{74 1,422 1,435 1,500 sport}
+{500 sport}
+{2 2,39 1,93 2,112 1,147 1,500 sport}
+{500 sport}
+{2 1,6 1,27 1,500 sport}
+{82 1,500 sport}
+{145 1,185 1,218 1,356 1,500 sport}
+{96 1,500 sport}
+{17 1,20 1,326 1,500 sport}
+{17 1,122 1,500 sport}
+{8 1,51 1,96 1,131 1,417 1,500 sport}
+{74 1,224 1,228 1,500 sport}
+{24 1,500 sport}
+{91 1,200 1,241 1,353 1,500 sport}
+{2 1,27 1,82 1,364 1,389 1,500 sport}
+{193 1,500 sport}
+{2 1,77 1,133 1,228 1,238 1,281 1,500 sport}
+{112 1,500 sport}
+{17 1,76 1,206 1,239 1,399 1,500 sport}
+{51 1,281 1,500 sport}
+{245 1,500 sport}
+{32 1,97 1,180 1,300 1,500 sport}
+{40 1,364 1,435 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,363 2,500 sport}
+{17 1,93 1,323 1,500 sport}
+{20 1,500 sport}
+{500 sport}
+{9 1,24 1,500 sport}
+{500 sport}
+{20 1,90 1,500 sport}
+{20 1,82 1,96 1,436 1,500 sport}
+{76 1,500 sport}
+{4 1,20 1,96 1,216 1,500 sport}
+{8 1,500 sport}
+{35 1,50 1,76 1,145 1,500 sport}
+{46 1,66 2,70 1,73 1,80 1,108 1,164 1,500 sport}
+{4 1,39 1,97 1,147 1,180 1,231 1,300 1,500 sport}
+{8 1,500 sport}
+{40 1,91 1,167 1,260 1,500 sport}
+{41 1,75 1,133 1,500 sport}
+{4 2,104 1,223 1,266 2,500 sport}
+{1 1,144 1,321 1,333 1,500 sport}
+{9 1,15 1,29 1,55 1,500 sport}
+{228 1,500 sport}
+{231 1,500 sport}
+{54 1,104 1,161 1,500 sport}
+{8 1,500 sport}
+{58 1,356 1,469 1,500 sport}
+{50 1,500 sport}
+{15 1,51 1,298 1,500 sport}
+{55 1,74 1,121 1,500 sport}
+{75 1,185 1,360 1,500 sport}
+{133 1,500 sport}
+{240 1,500 sport}
+{17 1,20 1,24 1,54 1,104 2,500 sport}
+{157 1,500 sport}
+{2 1,4 1,24 1,39 1,133 1,165 1,325 1,483 1,500 sport}
+{104 1,497 1,500 sport}
+{421 1,500 sport}
+{20 1,122 1,160 1,500 sport}
+{8 1,326 2,500 sport}
+{500 sport}
+{8 1,500 sport}
+{17 1,77 1,500 sport}
+{51 1,500 sport}
+{17 1,224 1,308 1,385 1,500 sport}
+{500 sport}
+{112 1,174 1,500 sport}
+{20 1,75 1,145 1,500 sport}
+{1 1,15 1,51 1,242 1,500 sport}
+{500 sport}
+{269 1,354 1,500 sport}
+{331 1,358 1,500 sport}
+{9 1,15 1,29 1,55 1,500 sport}
+{32 1,88 1,105 3,131 1,500 sport}
+{1 1,30 1,91 2,112 1,308 1,485 1,500 sport}
+{76 1,485 1,500 sport}
+{151 1,500 sport}
+{75 1,442 1,500 sport}
+{119 1,151 1,492 1,500 sport}
+{75 1,112 1,347 1,500 sport}
+{77 1,200 1,417 1,500 sport}
+{88 1,223 1,266 1,418 1,500 sport}
+{20 1,82 1,244 1,500 sport}
+{30 1,342 1,500 sport}
+{24 1,58 1,422 1,435 1,500 sport}
+{216 1,500 sport}
+{40 1,54 1,301 1,500 sport}
+{500 sport}
+{20 1,77 1,500 sport}
+{112 1,385 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,500 sport}
+{9 1,29 1,354 1,500 sport}
+{2 1,4 1,27 1,362 1,500 sport}
+{20 1,24 1,500 sport}
+{75 1,240 1,244 1,347 1,500 sport}
+{4 1,39 1,54 1,105 1,147 1,312 1,323 1,500 sport}
+{500 sport}
+{2 2,4 2,8 1,27 1,119 1,174 1,228 1,254 1,500 sport}
+{24 1,30 1,104 1,232 1,500 sport}
+{500 sport}
+{210 1,500 sport}
+{30 1,32 1,40 1,87 1,146 1,314 1,500 sport}
+{58 1,66 2,70 1,73 1,80 1,108 1,164 1,500 sport}
+{77 1,500 sport}
+{20 1,500 sport}
+{500 sport}
+{2 1,9 1,20 1,54 1,87 1,144 1,417 1,500 sport}
+{485 1,500 sport}
+{8 1,39 1,91 1,112 1,241 1,330 1,385 1,500 sport}
+{9 1,64 1,180 1,222 1,500 sport}
+{4 1,8 1,93 2,133 1,174 1,254 1,500 sport}
+{77 1,500 sport}
+{2 1,4 1,27 1,105 1,323 1,408 1,500 sport}
+{500 sport}
+{64 1,485 1,500 sport}
+{500 sport}
+{500 sport}
+{32 1,39 1,54 1,104 1,500 sport}
+{27 1,146 1,174 1,238 1,500 sport}
+{17 1,112 1,399 1,500 sport}
+{2 2,4 1,93 2,147 1,151 1,238 1,500 sport}
+{20 1,96 1,240 1,500 sport}
+{24 1,351 1,500 sport}
+{112 1,122 1,241 1,330 1,351 1,500 sport}
+{500 sport}
+{500 sport}
+{151 1,165 1,206 1,500 sport}
+{75 1,347 1,500 sport}
+{186 1,249 1,485 1,500 business}
+{137 1,500 business}
+{84 1,435 1,500 business}
+{48 1,136 1,307 1,413 1,500 business}
+{43 1,60 1,84 1,500 business}
+{182 1,500 business}
+{500 business}
+{11 1,28 1,216 1,227 1,500 business}
+{37 1,500 business}
+{20 1,77 1,228 1,492 1,500 business}
+{17 1,500 business}
+{11 1,83 1,109 1,117 1,118 1,143 1,399 1,500 business}
+{437 1,500 business}
+{108 1,205 1,500 business}
+{38 1,62 1,73 1,500 business}
+{21 1,175 1,500 business}
+{28 1,50 1,60 1,422 1,455 1,500 business}
+{92 1,221 1,500 business}
+{58 1,500 business}
+{500 business}
+{40 1,89 1,500 business}
+{19 1,500 business}
+{500 business}
+{81 1,98 1,500 business}
+{34 1,58 1,170 1,381 1,416 1,500 business}
+{500 business}
+{500 business}
+{28 1,166 1,500 business}
+{500 business}
+{397 1,500 business}
+{175 1,500 business}
+{500 business}
+{92 1,181 1,438 1,500 business}
+{63 1,221 1,427 1,497 1,500 business}
+{11 1,83 1,109 1,117 1,118 1,143 1,399 1,500 business}
+{49 1,63 1,500 business}
+{287 1,500 business}
+{500 business}
+{246 1,500 business}
+{500 business}
+{111 1,479 1,500 business}
+{429 1,500 business}
+{487 1,500 business}
+{456 1,500 business}
+{500 business}
+{98 1,367 1,500 business}
+{65 1,147 1,402 1,500 business}
+{170 1,500 business}
+{11 1,227 1,500 business}
+{108 1,205 1,500 business}
+{37 1,126 1,141 1,449 1,500 business}
+{500 business}
+{50 1,63 1,176 1,500 business}
+{98 1,500 business}
+{92 1,422 1,500 business}
+{100 1,112 1,372 1,483 1,500 business}
+{100 1,171 1,500 business}
+{40 1,49 1,500 business}
+{172 2,500 business}
+{37 1,238 1,500 business}
+{57 1,84 1,500 business}
+{7 1,50 1,500 business}
+{329 1,500 business}
+{397 1,500 business}
+{100 1,418 1,500 business}
+{411 1,500 business}
+{28 1,40 1,500 business}
+{63 1,500 business}
+{500 business}
+{92 1,397 1,500 business}
+{146 1,500 business}
+{21 1,57 1,243 1,500 business}
+{50 1,57 1,500 business}
+{21 1,84 1,438 1,500 business}
+{381 1,500 business}
+{500 business}
+{19 1,176 1,500 business}
+{38 1,62 1,73 1,112 1,400 1,417 1,500 business}
+{500 business}
+{166 1,500 business}
+{100 1,211 1,500 business}
+{205 1,500 business}
+{51 1,500 business}
+{500 business}
+{21 1,57 1,329 1,500 business}
+{500 business}
+{74 1,101 1,500 business}
+{40 1,175 1,500 business}
+{50 1,137 1,437 1,500 business}
+{48 1,54 1,270 1,500 business}
+{38 1,135 1,500 business}
+{11 1,227 1,329 1,500 business}
+{60 1,500 business}
+{500 business}
+{500 business}
+{56 1,111 1,500 business}
+{11 1,62 1,83 1,500 business}
+{500 business}
+{50 1,81 1,307 1,478 1,500 business}
+{7 1,38 1,91 1,111 1,135 1,500 business}
+{182 1,500 business}
+{21 1,24 1,84 1,500 business}
+{177 1,372 1,500 business}
+{22 1,405 1,500 business}
+{500 business}
+{500 business}
+{25 1,38 1,135 1,469 1,500 business}
+{11 1,500 business}
+{11 1,62 1,83 1,442 1,443 1,444 1,500 business}
+{63 1,171 1,367 1,500 business}
+{35 1,60 1,500 business}
+{500 business}
+{142 1,490 1,500 business}
+{81 1,307 1,369 1,500 business}
+{485 1,500 business}
+{19 1,176 1,500 business}
+{236 1,500 business}
+{48 1,109 1,126 1,143 1,500 business}
+{60 1,62 1,201 1,500 business}
+{65 1,133 1,247 1,402 1,479 1,500 business}
+{500 business}
+{16 1,500 business}
+{51 1,65 1,133 1,500 business}
+{40 1,500 business}
+{62 1,211 1,500 business}
+{411 1,500 business}
+{11 1,28 1,365 1,500 business}
+{84 1,500 business}
+{98 1,201 1,500 business}
+{60 1,85 1,500 business}
+{500 business}
+{500 business}
+{177 1,236 1,500 business}
+{417 1,500 business}
+{292 1,441 1,500 business}
+{56 1,140 1,408 1,500 business}
+{500 business}
+{40 1,500 business}
+{483 1,500 business}
+{126 1,500 business}
+{109 1,143 1,166 1,168 1,500 business}
+{50 1,81 1,500 business}
+{105 1,500 business}
+{372 1,431 1,500 business}
+{11 1,83 1,109 1,117 1,118 1,143 1,399 1,500 business}
+{216 1,237 1,500 business}
+{131 1,220 1,500 business}
+{140 1,500 business}
+{38 1,62 1,73 1,112 1,500 business}
+{500 business}
+{500 business}
+{32 1,500 business}
+{50 1,57 1,62 1,201 1,500 business}
+{20 1,131 1,205 1,471 1,500 business}
+{21 1,57 1,500 business}
+{60 1,500 business}
+{141 1,211 1,500 business}
+{40 1,500 business}
+{11 1,62 1,71 1,92 1,500 business}
+{48 1,500 business}
+{62 1,500 business}
+{112 1,172 1,500 business}
+{288 1,500 business}
+{39 1,109 1,500 business}
+{58 1,170 1,487 1,500 business}
+{28 1,42 1,500 business}
+{65 1,91 1,133 1,247 1,500 business}
+{28 1,500 business}
+{487 1,500 business}
+{141 1,500 business}
+{39 1,477 1,500 business}
+{19 1,38 1,62 1,73 1,500 business}
+{37 1,43 1,401 1,500 business}
+{65 1,500 business}
+{500 business}
+{81 1,98 1,252 1,500 business}
+{65 1,500 business}
+{4 1,221 1,500 business}
+{63 1,287 1,404 1,500 business}
+{60 1,98 1,500 business}
+{55 1,74 1,500 business}
+{84 1,500 business}
+{500 business}
+{28 1,92 1,500 business}
+{126 1,385 1,500 business}
+{42 1,81 1,500 business}
+{500 business}
+{186 1,249 1,500 business}
+{19 1,396 1,500 business}
+{500 business}
+{147 1,182 2,244 1,500 business}
+{73 1,500 business}
+{48 1,57 1,84 1,500 business}
+{168 1,404 1,500 business}
+{11 1,126 1,365 1,500 business}
+{40 1,500 business}
+{21 1,50 1,57 1,367 1,500 business}
+{50 1,172 1,397 1,500 business}
+{37 1,243 1,500 business}
+{63 1,500 business}
+{81 1,252 1,500 business}
+{500 business}
+{84 1,497 1,500 business}
+{182 1,270 1,500 business}
+{500 business}
+{500 business}
+{25 1,220 1,309 1,500 business}
+{176 2,385 1,388 1,391 1,500 business}
+{109 1,136 1,143 1,406 1,500 business}
+{221 1,381 1,500 business}
+{11 1,16 1,20 1,22 1,83 1,99 1,117 1,118 1,500 business}
+{35 1,500 business}
+{500 business}
+{28 1,500 business}
+{175 1,422 1,500 business}
+{221 1,455 1,500 business}
+{28 2,92 1,500 business}
+{89 1,381 1,500 business}
+{500 business}
+{500 business}
+{137 1,490 1,500 business}
+{397 1,500 business}
+{54 1,479 1,500 business}
+{21 1,62 1,201 1,500 business}
+{136 2,413 1,500 business}
+{422 1,500 business}
+{168 1,220 1,500 business}
+{65 1,224 1,500 business}
+{46 1,500 business}
+{247 1,500 business}
+{417 1,500 business}
+{493 1,500 business}
+{57 1,65 1,126 1,500 business}
+{500 business}
+{21 1,57 1,285 1,500 business}
+{25 1,38 1,62 1,135 1,500 business}
+{500 business}
+{42 1,500 business}
+{84 1,500 business}
+{40 1,85 1,500 business}
+{500 business}
+{329 1,408 1,500 business}
+{37 1,141 1,245 1,500 business}
+{412 1,496 1,500 business}
+{309 1,457 1,500 business}
+{500 business}
+{48 1,164 1,500 business}
+{40 1,131 1,500 business}
+{36 1,57 1,500 business}
+{22 1,40 1,500 business}
+{500 business}
+{309 1,500 business}
+{57 1,500 business}
+{138 1,500 business}
+{500 business}
+{50 1,500 business}
+{50 1,369 1,500 business}
+{500 business}
+{28 1,37 1,55 1,58 1,101 1,500 business}
+{81 1,98 1,252 1,500 business}
+{63 1,176 1,383 1,500 business}
+{500 business}
+{211 1,500 business}
+{37 1,500 business}
+{12 1,107 1,500 business}
+{28 1,500 business}
+{62 1,201 1,500 business}
+{134 1,187 1,500 business}
+{500 business}
+{11 1,58 1,365 1,500 business}
+{62 1,201 1,500 business}
+{500 business}
+{57 1,84 1,500 business}
+{21 1,182 1,500 business}
+{38 1,135 1,500 business}
+{75 1,166 1,168 1,297 1,401 1,500 business}
+{40 1,500 business}
+{81 1,98 1,307 1,369 1,500 business}
+{177 1,500 business}
+{166 1,288 1,500 business}
+{38 1,58 1,135 1,500 business}
+{40 1,500 business}
+{500 business}
+{81 1,500 business}
+{500 business}
+{500 business}
+{7 1,38 1,135 1,290 1,500 business}
+{372 1,500 business}
+{100 1,112 1,500 business}
+{500 business}
+{184 1,500 business}
+{168 1,500 business}
+{63 1,500 business}
+{500 business}
+{500 business}
+{143 1,500 business}
+{111 1,500 business}
+{38 1,100 1,135 1,426 1,500 business}
+{84 1,136 1,178 1,433 1,500 business}
+{50 1,500 business}
+{63 1,388 1,500 business}
+{48 1,500 business}
+{37 1,60 1,134 1,408 1,500 business}
+{134 1,494 1,500 business}
+{111 1,500 business}
+{177 1,411 1,490 1,500 business}
+{500 business}
+{37 1,500 business}
+{500 business}
+{126 1,219 1,297 1,500 business}
+{500 business}
+{137 1,422 1,455 1,500 business}
+{66 1,500 business}
+{25 1,500 business}
+{34 1,490 1,500 business}
+{28 1,50 1,62 1,216 1,500 business}
+{12 1,25 1,500 business}
+{24 1,62 1,500 business}
+{136 1,137 1,176 1,455 1,500 business}
+{28 1,77 1,500 business}
+{500 business}
+{500 business}
+{141 1,265 1,438 1,500 business}
+{500 business}
+{500 business}
+{205 1,500 business}
+{11 1,83 1,117 1,118 1,500 business}
+{11 1,83 1,141 1,500 business}
+{37 1,84 1,432 1,500 business}
+{500 business}
+{265 1,500 business}
+{11 1,109 1,117 1,118 1,143 1,227 1,399 1,500 business}
+{500 business}
+{58 1,442 1,500 business}
+{88 1,500 business}
+{137 1,283 1,500 business}
+{50 1,136 1,500 business}
+{166 1,500 business}
+{17 1,185 1,500 business}
+{36 1,500 business}
+{489 1,500 business}
+{126 1,500 business}
+{50 1,252 1,438 1,500 business}
+{410 1,500 business}
+{500 business}
+{16 1,397 1,500 business}
+{391 1,500 business}
+{21 1,230 1,367 1,500 business}
+{270 1,500 business}
+{7 1,500 business}
+{131 1,175 1,500 business}
+{28 1,137 1,247 1,404 1,500 business}
+{65 1,78 1,500 business}
+{21 1,48 1,60 1,500 business}
+{65 1,133 1,500 business}
+{247 1,500 business}
+{11 1,77 1,227 1,500 business}
+{38 1,62 1,73 1,112 1,400 1,417 1,431 1,500 business}
+{45 1,101 1,445 1,500 business}
+{56 1,189 1,490 1,500 business}
+{128 1,141 1,500 business}
+{500 business}
+{141 1,265 1,500 business}
+{221 1,455 1,500 business}
+{142 1,500 business}
+{25 1,166 1,500 business}
+{136 1,500 business}
+{500 business}
+{137 1,220 1,500 business}
+{221 1,411 1,500 business}
+{309 1,500 business}
+{500 business}
+{205 1,500 business}
+{469 1,500 business}
+{411 1,427 1,500 business}
+{500 business}
+{51 1,500 business}
+{11 1,83 1,109 1,117 1,118 1,143 1,399 1,500 business}
+{500 business}
+{500 business}
+{500 business}
+{175 1,221 1,500 business}
+{11 1,62 1,83 1,296 1,500 business}
+{104 1,500 business}
+{500 business}
+{3 1,11 1,16 1,20 1,365 1,500 business}
+{28 1,48 1,297 1,500 business}
+{50 1,57 1,111 1,131 1,141 1,500 business}
+{60 1,243 1,500 business}
+{500 business}
+{411 1,500 business}
+{147 1,297 1,500 business}
+{188 1,487 1,500 business}
+{84 1,500 business}
+{111 1,500 business}
+{126 1,500 business}
+{50 1,369 1,500 business}
+{500 business}
+{65 1,185 1,417 1,500 business}
+{8 1,133 1,500 business}
+{182 1,270 1,500 business}
+{48 1,182 1,500 business}
+{500 business}
+{297 1,500 business}
+{21 1,84 1,448 1,500 business}
+{405 1,500 business}
+{21 1,45 1,285 1,500 business}
+{63 1,84 1,101 1,500 business}
+{220 1,500 business}
+{56 1,500 business}
+{383 1,500 business}
+{500 business}
+{19 1,37 1,500 business}
+{11 1,28 1,92 1,227 1,500 business}
+{28 1,500 business}
+{500 business}
+{168 1,283 1,500 business}
+{109 1,143 1,500 business}
+{65 1,500 business}
+{176 1,417 1,500 business}
+{462 1,500 business}
+{98 1,171 1,500 business}
+{50 1,98 1,500 business}
+{65 1,133 1,500 business}
+{493 1,500 business}
+{28 1,57 1,500 business}
+{6 1,500 business}
+{442 1,500 business}
+{500 business}
+{51 1,500 business}
+{174 1,265 1,500 business}
+{25 1,100 1,500 business}
+{19 1,34 1,37 1,38 1,111 1,135 1,307 1,500 business}
+{40 1,500 business}
+{21 1,500 business}
+{100 1,131 1,168 1,187 1,500 business}
+{139 1,247 1,443 1,487 1,500 business}
+{46 1,50 1,81 1,252 1,435 1,500 business}
+{404 1,500 business}
+{101 1,500 business}
+{500 business}
+{63 1,417 1,500 business}
+{270 1,500 business}
+{21 1,48 1,60 1,500 business}
+{19 1,53 1,243 1,500 business}
+{85 1,469 1,500 business}
+{97 1,176 1,500 business}
+{500 business}
+{44 1,500 business}
+{40 1,500 business}
+{38 1,135 1,172 1,176 1,305 1,485 1,500 business}
+{246 1,500 business}
+{56 2,140 1,500 business}
+{25 1,85 1,500 business}
+{56 2,84 1,136 1,500 business}
+{500 business}
+{73 1,211 1,500 business}
+{58 1,500 business}
+{7 1,89 1,188 1,290 1,417 1,500 business}
+{63 1,411 1,500 business}
+{28 1,166 1,500 business}
+{28 1,42 1,265 1,496 1,500 business}
+{500 business}
+{500 business}
+{405 1,500 business}
+{48 1,60 1,500 business}
+{21 1,500 business}
+{500 business}
+{402 1,440 1,500 business}
+{441 1,500 business}
+{111 1,500 business}
+{449 1,500 business}
+{500 business}
+{229 1,500 business}
+{44 1,92 1,500 business}
+{50 1,84 1,100 1,168 1,471 1,500 business}
+{62 1,500 business}
+{21 1,500 business}
+{39 1,109 1,432 1,500 business}
+{168 1,404 1,463 1,497 1,500 business}
+{500 business}
+{65 1,500 business}
+{65 1,500 business}
+{40 1,500 business}
+{500 business}
+{92 1,397 1,500 business}
+{21 1,48 1,500 business}
+{40 1,500 business}
+{500 business}
+{11 1,28 1,83 1,117 1,118 1,500 business}
+{92 1,500 business}
+{50 1,169 1,449 1,500 business}
+{422 1,500 business}
+{177 1,211 1,485 1,500 business}
+{50 1,62 1,141 1,493 1,495 1,500 business}
+{500 business}
+{500 business}
+{220 1,500 business}
+{247 1,500 business}
+{136 1,500 business}
