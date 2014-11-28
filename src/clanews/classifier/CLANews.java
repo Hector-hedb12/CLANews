@@ -138,7 +138,7 @@ public class CLANews {
     
     private static Classifier doCrossValidation(int seed, 
                                                 Instances trainingSet,
-                                                boolean testMode)
+                                                boolean showCharts)
             throws Exception {
         System.out.println();
         System.out.println("Doing Cross-Validation, SEED = " + seed + " ...");
@@ -201,7 +201,7 @@ public class CLANews {
         System.out.println("Weighted Harmonic Mean: " + best_Fbeta );
         
         // Show ROC Curve for each class
-        if ( !testMode ) {
+        if ( showCharts ) {
             for (int cl = 0; cl < NUM_CLASS; cl++) {
                 showRocCurve(evalAll.predictions(), 
                              cl, 
@@ -442,7 +442,7 @@ public class CLANews {
             
             try {
                 // Train and Save SVM
-                mSVM = doCrossValidation(BEST_SEED, mSVM_dataset, testMode);
+                mSVM = doCrossValidation(BEST_SEED, mSVM_dataset, !testMode);
                 saveModel( mSVM );
             } catch (Exception ex) {
                 System.err.println("Training or Saving Classifier");
