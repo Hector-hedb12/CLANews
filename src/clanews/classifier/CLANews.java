@@ -264,6 +264,11 @@ public class CLANews {
     }
 
     private static void getBestDataParameters() throws Exception {
+        ArffLoader loader = new ArffLoader();
+        loader.setFile( new File(ARFF_FILE) );
+        mInstances = loader.getDataSet();
+        mInstances.setClassIndex(0);
+        
         Instances data;
         Random randomGenerator = new Random();
         
@@ -324,9 +329,7 @@ public class CLANews {
         for (int i = 0; i < numTweets; i++ ) {
             try {
                 double prediction = mSVM.classifyInstance(testSet.instance(i));
-                System.out.println(testSet.classAttribute().value(
-                                                   (int) Math.round(prediction))
-                                  );
+                System.out.println(testSet.classAttribute().value((int) prediction));
             } catch (java.lang.Exception ex) {
                 System.err.println("?: " + testSet.instance(i).toString());
             }
@@ -358,6 +361,7 @@ public class CLANews {
      * @param options the command line arguments
      */
     public static void main(String[] options) {
+/*        
         String language  = "";
         String test_file = "";
         boolean testMode = false;
@@ -472,8 +476,13 @@ public class CLANews {
         if ( testMode ) {
             test(test_file);
         }
-        
-        // Tuning data parameters
-        //getBestDataParameters();
+*/
+        // Tuning data parameters:
+        try {
+            getBestDataParameters();
+        } catch (Exception ex) {
+            System.err.println("Getting Best Parameters");
+            System.exit(-1);            
+        }
     }
 }
