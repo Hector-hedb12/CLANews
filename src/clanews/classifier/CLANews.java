@@ -39,7 +39,7 @@ public class CLANews {
     // SVM Parameters
     private static final int BEST_NUM_INSTANCES  = 4000;
     private static final int BEST_NUM_ATTRIBUTES = 2500;
-    private static final int BEST_SEED           = 2000;
+    private static final int BEST_SEED           = 691867;
     
     private static final int    NUM_FOLDS = 10;
     private static final double SVM_COST  = 4096.0;
@@ -375,7 +375,6 @@ public class CLANews {
      * @param options the command line arguments
      */
     public static void main(String[] options) {
-/*        
         String language  = "";
         String test_file = "";
         boolean testMode = false;
@@ -490,7 +489,7 @@ public class CLANews {
         if ( testMode ) {
             test(test_file);
         }
-*/
+
 /*
         // Tuning data parameters:
         try {
@@ -499,7 +498,7 @@ public class CLANews {
             System.err.println("Getting Best Parameters");
             System.exit(-1);            
         }
-*/
+
         // Tuning seed:
         try {
             getBestSeedParameter();
@@ -507,5 +506,6 @@ public class CLANews {
             System.err.println("Getting Best Seed Parameter");
             System.exit(-1);            
         }
+*/
     }
 }
