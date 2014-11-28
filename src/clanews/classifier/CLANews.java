@@ -275,13 +275,27 @@ public class CLANews {
         for (int numInstances : numInstances_list) {
             for (int numAttributes : numAttributes_list) {
                 System.out.println("##########################################################");
-                System.out.println("Training with " + numInstances   + 
+                System.out.println("Training with "  + numInstances  + 
                                    " Instances and " + numAttributes + 
                                    " Attributes");
                 
                 data = getTrainingSet(numInstances, numAttributes);
                 doCrossValidation(randomGenerator.nextInt(999999), data, false);
             }
+        }
+    }
+    
+    private static void getBestSeedParameter() throws Exception {
+        ArffLoader loader = new ArffLoader();
+        loader.setFile( new File(ARFF_FILE) );
+        mInstances = loader.getDataSet();
+        mInstances.setClassIndex(0);
+        
+        Instances data = getTrainingSet(BEST_NUM_INSTANCES, BEST_NUM_ATTRIBUTES);
+        Random randomGenerator = new Random();
+        
+        for (int i = 0; i < 25; i++) {
+            doCrossValidation(randomGenerator.nextInt(999999), data, false);
         }
     }
 
@@ -477,11 +491,20 @@ public class CLANews {
             test(test_file);
         }
 */
+/*
         // Tuning data parameters:
         try {
             getBestDataParameters();
         } catch (Exception ex) {
             System.err.println("Getting Best Parameters");
+            System.exit(-1);            
+        }
+*/
+        // Tuning seed:
+        try {
+            getBestSeedParameter();
+        } catch (Exception ex) {
+            System.err.println("Getting Best Seed Parameter");
             System.exit(-1);            
         }
     }
