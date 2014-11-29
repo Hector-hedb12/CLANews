@@ -214,7 +214,7 @@ public class TweetsGetter {
                         tweet = status.getText();
                         // Not Retweet
                         if ( !tweet.contains("RT @") ) {
-                            out.write(tweet);
+                            out.write(tweet.replaceAll("\n", " "));
                             out.newLine();
                             count++;
 

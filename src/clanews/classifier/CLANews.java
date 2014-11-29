@@ -33,7 +33,7 @@ import weka.gui.visualize.ThresholdVisualizePanel;
 public class CLANews {
     
     private static final String USAGE = "Usage: java -cp dist/CLANews.jar "  +
-                                        "clanews.tweetsgetter.TweetsGetter " +
+                                        "clanews.classifier.CLANews " +
                                         "-l <EN|ES> -m <TRAIN|TEST> "        +
                                         "[-i <test file> (if set TEST mode)]";
     // SVM Parameters
