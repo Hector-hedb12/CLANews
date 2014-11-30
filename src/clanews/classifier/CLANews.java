@@ -322,7 +322,7 @@ public class CLANews {
     }
 
     private static void test(String file) {
-        System.out.println("Testing model over: " + file);
+
         Scanner scanner = null;
         try {
             scanner = new Scanner(new File(file));
@@ -348,7 +348,6 @@ public class CLANews {
                 System.err.println("?: " + testSet.instance(i).toString());
             }
         }
-        System.out.println("\tFinished");
     }
     
     private static void addInstance(String tweet, Instances data) {
