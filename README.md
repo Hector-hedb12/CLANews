@@ -7,11 +7,11 @@ en una Máquina de Soporte Vectorial - Support Vector Machine.
 El proyecto fue desarrollado en Java, utilizando el IDE Netbeans y está 
 compuesto por cuatro sub-proyectos:
 
-* TweetsGetter: utilizado para obtener tweets de la cuenta de Twitter de 
+- *TweetsGetter*: utilizado para obtener tweets de la cuenta de Twitter de 
 usuarios especificados en un archivo de entrada.
-* TweetsAnalyzer: es un analizador de sentencias utilizado para pre-procesar los
+- *TweetsAnalyzer*: es un analizador de sentencias utilizado para pre-procesar los
 tweets extraídos antes de utilizarlos para construir el clasificador.
-* Classifier: es la máquina utilizada para clasificar los tweets en categorías,
+- *Classifier*: es la máquina utilizada para clasificar los tweets en categorías,
 por ejemplo: Tecnología, Economía, Deporte, Política y Entretenimiento.
 
 Para hacer uso de cualquiera de los sub-proyectos, es necesario, antes que nada,
@@ -20,13 +20,11 @@ generar el archivo ```.jar``` correspondiente.
 A continuación se detallará cómo utilizar cada uno de estos sub-proyectos:
 
 ## TweetsGetter
-===============
 
 La sintaxis para su ejecución es la siguiente:
 
 ```
-java -cp dist/CLANews.jar clanews.tweetsgetter.TweetsGetter -l <EN|ES> 
--m <TRAIN|TEST> -n <number of tweets> [-i <input file>]
+java -cp dist/CLANews.jar clanews.tweetsgetter.TweetsGetter -l <EN|ES> -m <TRAIN|TEST> -n <number of tweets> [-i <input file>]
 ```
 
 donde:
@@ -55,21 +53,25 @@ En caso de no ser indicado este flag, se toma el archivo por defecto
 ```src/resources/tweetsgetter/train_input.txt``` en caso de estar en modo 
 ```TRAIN```. La estructura de este archivo es la siguiente:
 
+```
 <directorio raiz>
 <sub-directorio de categoria 1> <usuario 1 de categoria 1> <usuario 2 de categoria 1> ... <usuario n de categoria 1>
 <sub-directorio de categoria 2> <usuario 1 de categoria 2> <usuario 2 de categoria 2> ... <usuario n de categoria 2>
 ...
 <sub-directorio de categoria n> <usuario 1 de categoria n> <usuario 2 de categoria n> ... <usuario n de categoria n>
+```
 
 En el caso de estar en modo ```TEST``` y no indicarse este flag, se tomará el 
 archivo en ```src/resources/tweetsgetter/test_input.txt``` y su estructura es 
 la siguiente:
 
+```
 <directorio>
 <usuario 1>
 <usuario 2>
 ...
 <usuario n>
+```
 
 *Nota*: para acceder al API de Twitter se utilizó la libreria *Twitter4J* por
 lo que es requerido un archivo ```twitter4j.properties``` para especificar
@@ -82,7 +84,6 @@ información, puede consultar el
 [sitio web para desarrolladores de Twitter](https://dev.twitter.com/).
 
 ## TweetsAnalyzer
-===============
 
 La sintaxis para su ejecución es la siguiente:
 
@@ -111,7 +112,6 @@ Adicionalmente, se utilizan expresiones regulares para eliminar los números
 y las urls.
 
 ## Classifier
-===============
 
 La sintaxis para su ejecución es la siguiente:
 
@@ -148,6 +148,6 @@ Para la construcción del clasificador se utilizan las librerias *Weka* y
 *LibSVM*, especificamente weka 3.6.11 y LibSVM 3.20. Cualquier información
 adicional puede ser consultada en sus sitios: 
 
-* [weka](http://www.cs.waikato.ac.nz/ml/weka/), 
+* [weka](http://www.cs.waikato.ac.nz/ml/weka/)
 * [LibSVM](http://www.csie.ntu.edu.tw/~cjlin/libsvm/)
 
