@@ -15,7 +15,14 @@ tweets extraídos antes de utilizarlos para construir el clasificador.
 por ejemplo: Tecnología, Economía, Deporte, Política y Entretenimiento.
 
 Para hacer uso de cualquiera de los sub-proyectos, es necesario, antes que nada,
-generar el archivo ```.jar``` correspondiente.
+generar el archivo ```.jar``` correspondiente. Para generarlo existen numerosas
+maneras, entre ellas:
+
+* Usar el IDE [Netbeans](https://netbeans.org/) para abrir el proyecto y darle
+a *Clean and Build Project*.
+* Si se desea generar el archivo ```.jar``` por consola, es posible a través del
+comando ```ant compile jar run```, estando dentro del directorio ```CLANews/```,
+al nivel del archivo ```build.xml```.
 
 A continuación se detallará cómo utilizar cada uno de estos sub-proyectos:
 
